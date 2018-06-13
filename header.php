@@ -38,6 +38,7 @@
 		<nav>
 			<a href="/lab1">LAB1</a>
 			<a href="/lab2">LAB2</a>
+<!--			<a href="/lab3">LAB3</a> -->
       <!-- <a href="/blog">BLOG</a> -->
 		</nav>
   </div>

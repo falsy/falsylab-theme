@@ -74,50 +74,52 @@
 
 
 @media only screen and (max-width:850px){
-.container {width:480px; position:relative; margin:0 auto;}
-.col_box {width:500px; margin-left:-20px; float:left;}
-.col_box_full {width:500px; margin:0 -10px;}
-.col {width:50%;}
-.col > div {padding: 10px;}
-.col_half {width:230px; margin-left:20px; float:left;}
-.col_full {width:480px;}
-.col.sidebar {margin-left:0; width:100%;}
+	.container {width:480px; position:relative; margin:0 auto;}
+	.col_box {width:500px; margin-left:-20px; float:left;}
+	.col_box_full {width:500px; margin:0 -10px;}
+	.col {width:50%;}
+	.col > div {padding: 10px;}
+	.col_half {width:230px; margin-left:20px; float:left;}
+	.col_full {width:480px;}
+	.col.sidebar {margin-left:0; width:100%;}
 
-.project_list.about_last .col_half {width:480px;}
+	.project_list.about_last .col_half {width:480px;}
 
-#page_header .col:first-child {width:120px;}
-#page_header .col_box_full #title {display:none;}
+	#page_header .col:first-child {width:120px;}
+	#page_header .col_box_full #title {display:none;}
 
-#page_content .navigation {margin-left:20px;}
-#page_content article {margin-bottom:10px; margin-top:10px;}
+	#page_content .navigation {margin-left:20px;}
+	#page_content article {margin-bottom:10px; margin-top:10px;}
 
-/*logo*/
-#page_header #logo {margin-left:0;}
+	/*logo*/
+	#page_header #logo {margin-left:0;}
 
-/*nav*/
-
-
-/*page*/
-.overview {margin-left:20px;}
-#about .first_skills {margin-top:0px;}
-
-/* home */
-/*.thumb_text {display:block;}*/
-
-/*ad*/
-#ad {display:none;}
-#search_box {border-bottom:0px; border-top:1px solid #e6dfd2; margin-top:40px; padding-top:40px; }
+	/*nav*/
 
 
-/* category */
-.category-essay #page_content article {width:480px; margin-top:20px;}
+	/*page*/
+	.overview {margin-left:20px;}
+	#about .first_skills {margin-top:0px;}
 
-.side_widget .text-2 {display: none;}
+	/* home */
+	/*.thumb_text {display:block;}*/
 
-.side_widget .widget_text.custom_html-2 {display: none;}
-.donate-text {display: none;}
-.footer_sidebar .donate-text {display: block;}
+	/*ad*/
+	#ad {display:none;}
+	#search_box {border-bottom:0px; border-top:1px solid #e6dfd2; margin-top:40px; padding-top:40px; }
 
+
+	/* category */
+	.category-essay #page_content article {width:480px; margin-top:20px;}
+
+	.side_widget .text-2 {display: none;}
+
+	.side_widget .widget_text.custom_html-2 {display: none;}
+	.donate-text {display: none;}
+	.footer_sidebar .donate-text {display: block;}
+
+	/* single other posts */
+	#page_content #other-posts .other-posts-container {margin: 0 -10px;}
 }
 
 
@@ -184,5 +186,8 @@
 	.single-post .overview h3 {font-size: 17px;}
 
 	#footer-nav, #copyright {float: none; text-align: center;}
+
+	/* single other posts */
+	#page_content #other-posts .other-posts-container .col {width: 100%; margin: 0 0 10px;}
 
 }

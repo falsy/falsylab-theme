@@ -9,7 +9,8 @@
               if(get_the_ID() === 1506) $cat = 7;
               if(get_the_ID() === 1420) $cat = 97;
               if(get_the_ID() === 1783) $cat = 122;
-              
+              if(get_the_ID() === 1874) $cat = 101;
+
               $args = array(
                 'cat' => $cat,
                 'post_type'      => 'post',

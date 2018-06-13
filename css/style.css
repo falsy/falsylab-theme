@@ -33,7 +33,7 @@ img#wpstats {display:none;}
 /* ---------------------------------------------------------------------------------------------------------
  * Footer
  -------------------------------------------------------------------------------------------------------- */
-#page_footer {margin-top:80px; color:#666;}
+#page_footer {margin-top:40px; color:#666;}
 #page_footer section:after {content: ''; clear: both; display: block;}
 
 #footer-nav {text-align: right; float: right; padding: 19px 0 15px;}
@@ -84,7 +84,7 @@ margin:3px; display:inline-block;}
 
 
 .donate-text {padding: 10px 2px;}
-.donate-text p {font-size: 10px; line-height: 14px; color: #ddd;}
+.donate-text p {font-size: 10px; line-height: 14px; color: #f7f7f7;}
 
 /* ---------------------------------------------------------------------------------------------------------
  * Content
@@ -185,6 +185,12 @@ margin:3px; display:inline-block;}
 #review_text .unclear-box {background: #fff6d7; padding-top: 5px; padding-bottom: 5px;}
 
 .footer_sidebar .donate-text {text-align: right; padding: 10px 0;}
+
+/* other posts */
+#other-posts {margin-top: 60px;}
+#other-posts h3 {font-size: 15px; color: #111; padding: 10px 0; margin: 10px 0; border-bottom: 1px solid #ddd; font-style: italic; font-weight: normal; border-top: 0;}
+#page_content #other-posts .other-posts-container {margin: 0 -20px;}
+#page_content #other-posts .other-posts-container .col {width: 33.33%;}
 
 /* ---------------------------------------------------------------------------------------------------------
  * comment

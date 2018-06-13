@@ -12,9 +12,8 @@
         <?php the_content(); ?>
         <p class="post_date highlight_color"><?php the_date('Y-m-d'); ?></p>
         <div class="footer_sidebar">
-          <p class="ad-title">Advertisement</p>
+          <!-- <p class="ad-title">Advertisement</p>
           <div class="first_ad_container">
-            <!-- content_footer -->
             <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-client="ca-pub-8365775889087902"
@@ -26,10 +25,49 @@
           </div>
           <div class="donate-text">
             <p>광고 수익금 전액은 우리 주위의 소년소녀가정을 위해 사용됩니다.</p>
+          </div> -->
+        </div>
+          <?php comments_template(); ?>
+          <?php endwhile; ?>
+        <div id="other-posts">
+          <h3>Other posts</h3>
+          <div class="other-posts-container">
+            <?php
+            $args = array(
+            // 'cat' => 7,
+            'post_type'    => 'post',
+            'orderby' => 'rand',
+            'posts_per_page' => 3,
+            );
+            $lab_query = new WP_Query($args);
+
+            if($lab_query->have_posts()) :
+            while($lab_query->have_posts()) :
+            $lab_query->the_post();
+            ?>
+            <article id="post-<?php the_ID() ; ?>" <?php post_class('col'); ?>>
+              <div>
+                <div>
+                  <div class="post_content_box">
+                    <figure>
+                      <?php the_post_thumbnail(); ?>
+                    </figure>
+                    <h2 class="thumb_text">
+                      <?php echo the_excerpt() ?>
+                    </h2>
+                    <div class="post_date">
+                      <span><?php echo get_the_date('Y-m-d'); ?></span>
+                    </div>
+                  </div>
+                  <a href="<?php the_permalink() ?>">link area</a>
+                </div>
+              </div>
+            </article>
+            <?php endwhile; ?>
+            <?php endif; ?>
+            <div style="clear:left;"></div>
           </div>
         </div>
-        <?php comments_template(); ?>
-        <?php endwhile; ?>
       </section>
     </div>
     <div class="col sidebar">
@@ -38,7 +76,5 @@
     <div style="clear:left;"></div>
   </div>
 </section>
-<section>
-  <?php //echo do_shortcode('[cgs_post_list]'); ?>
-</section>
+
 <?php get_footer(); ?>
