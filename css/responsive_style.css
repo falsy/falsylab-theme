@@ -69,6 +69,9 @@
 	.category-essay #page_content article {width:595px;}
 
 	.overview {margin-left: 20px;}
+
+	/* side bar */
+	.recent-posts-2 {margin-top: 294px;}
 }
 
 
@@ -81,7 +84,7 @@
 	.col > div {padding: 10px;}
 	.col_half {width:230px; margin-left:20px; float:left;}
 	.col_full {width:480px;}
-	.col.sidebar {margin-left:0; width:100%;}
+	.col.sidebar {margin-left:0; width:100%; display: none;}
 
 	.project_list.about_last .col_half {width:480px;}
 
