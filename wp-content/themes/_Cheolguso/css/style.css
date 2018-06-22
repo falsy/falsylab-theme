@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'hero';
+    src: url('../fonts/hero-webfont.eot'),
+         url('../fonts/hero-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/hero-webfont.woff') format('woff'),
+         url('../fonts/hero-webfont.ttf') format('truetype'),
+         url('../fonts/hero-webfont.svg#heroregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Noto KR';
+    font-weight: 500;
+    src:url('../fonts/NotoSansKR-Medium.eot');
+    src:url('../fonts/NotoSansKR-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NotoSansKR-Medium.woff') format('woff');
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------
+ * All 
+ -------------------------------------------------------------------------------------------------------- */
+* {margin:0; padding:0; -webkit-text-size-adjust:none; box-sizing:border-box;}
+body {font-family: 'Apple SD Gothic Neo', 'hero', 'Noto KR' sans-serif; background:url(../img/cgs_bg.jpg) left top repeat; font-size:14px; color:#577a8c; }
+a {text-decoration:none; color:#577a8c;}
+p {font-size:14px; line-height:28px;}
+ul li {list-style:none;}
+img {border:0;}
+img#wpstats {display:none;}
+main {display:block;}
+
+.date_color {color:#bbcdd6;}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------
+ * Header
+ -------------------------------------------------------------------------------------------------------- */
+#page_header nav {text-align:right;}
+#page_header nav #menu_button {display:inline-block; width:40px; line-height:0; margin:23px 0; cursor:pointer;}
+#page_header nav span {display:inline-block; width:40px; height:7px; margin-top:6px; background-color:#7fb2cd;}
+#page_header nav span:first-child {margin-top:0;}
+
+#page_header #logo {margin:23px 0;}
+#page_header #logo #logo_img {display:inline-block; width:50px; height:50px; border:5px solid #7fb2cd; margin-right:10px; margin-top:0; cursor:pointer;}
+#page_header #logo span {font-size:18px; font-weight:600; color:#72b2cd; float:left; margin-top:30px;}
+#page_header #logo:after {content:""; clear:both; display:block;}
+
+
+.container {width:1200px; position:relative; margin:0 auto;}
+.col_box {width:780px; margin-left:-40px; float:left;}
+.col_box_full {width:1040px; margin-left:-40px;}
+.col {width:220px; margin-left:40px; float:left; }
+.col_half {width:480px; margin-left:40px; float:left;}
+.col_full {width:740px;}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------
+ * Footer
+ -------------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------------
+ * Sidebar
+ -------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------------
+ * Content
+ -------------------------------------------------------------------------------------------------------- */
+#page_content {min-height: 500px;}
+
+
+/* ---------------------------------------------------------------------------------------------------------
+ * Content - single
+ -------------------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------------------------------------
+ * Content - contact
+ -------------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------------
+ * Content - history
+ -------------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------------
+ * Content - about
+ -------------------------------------------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------------------------------------------------
+ * comment
+ -------------------------------------------------------------------------------------------------------- */
+

@@ -1,42 +1,17 @@
 <?php
-/* Template Name: cheoguso home page */
-?>
-<?php get_header(); ?>
-<section id="page_content">
-  <div class="container">
-    <div class="col_box_full">
-      <?php
-        $args = array(
-        'post_type'    => 'post',
-       );
-        $lab_query = new WP_Query($args);
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
 
-        if($lab_query->have_posts()) :
-        while($lab_query->have_posts()) :
-        $lab_query->the_post();
-       ?>
-        <article id="post-<?php the_ID() ; ?>" <?php post_class('col'); ?>>
-          <div>
-            <div>
-              <div class="post_content_box">
-                <figure>
-                  <?php the_post_thumbnail(); ?>
-                </figure>
-                <h2 class="thumb_text">
-                  <?php echo the_excerpt() ?>
-                </h2>
-                <div class="post_date">
-                  <span><?php echo get_the_date('Y-m-d'); ?></span>
-                </div>
-              </div>
-              <a href="<?php the_permalink() ?>">link area</a>
-            </div>
-          </div>
-        </article>
-      <?php endwhile; ?>
-      <?php endif; ?>
-      <?php wp_reset_query(); ?>
-     </div>
-  </div>
-</section>
-<?php get_footer(); ?>
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define('WP_USE_THEMES', true);
+
+/** Loads the WordPress Environment and Template */
+require( dirname( __FILE__ ) . '/wp-blog-header.php' );
