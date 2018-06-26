@@ -22,8 +22,8 @@ img#wpstats {display:none;}
 /* ---------------------------------------------------------------------------------------------------------
  * Header
  -------------------------------------------------------------------------------------------------------- */
-#page_header {height: 120px; line-height: 120px;}
-#page_header p {line-height: 120px; float: left;}
+#page_header {height: 200px; line-height: 200px;}
+#page_header p {line-height: 200px; float: left;}
 #page_header nav {position: relative; float: right; z-index: 10;}
 #page_header nav a {color:#444; margin:0 0 0 15px; display:inline-block;}
 #page_header h1 {position: absolute; width: 100%; text-align: center; font-size: 24px; font-weight: normal; margin: 0;}
@@ -162,7 +162,7 @@ margin:3px; display:inline-block;}
 #review_link a {padding:8px 18px; font-size:14px; font-weight:bold; background:#33c1ab; border-radius:4px; transition: all 0.4s; color:#fff; opacity: 0.7;}
 #review_link a:hover {opacity: 1;}
 
-#review_text {font-size: 15px;}
+#review_text {font-size: 16px;}
 #review_text, #review_ps {margin:20px 0 40px;}
 #review_text a {border-bottom:1px solid #33c1ab; word-wrap:break-word;}
 #review_text a:hover {color:#33c1ab;}
@@ -201,6 +201,7 @@ margin:3px; display:inline-block;}
 /* ---------------------------------------------------------------------------------------------------------
  * comment
  -------------------------------------------------------------------------------------------------------- */
+#respond {padding: 5px 0;}
 #reply-title {font-size:15px; color:#111; padding:10px 0; margin:10px 0; border-bottom:1px solid #ddd;
 			font-style:italic; font-weight:normal; border-top:0;}
 
@@ -229,6 +230,8 @@ margin:3px; display:inline-block;}
 
 .comment-author.vcard {float:left; margin-right:10px; margin-top:-1px;}
 .comment-author.vcard cite {color: #33c1ab;}
+
+.comment-form-author label, .comment-form-email label, .comment-form-url label, .comment-form-comment label {display: none;}
 
 
 /* ---------------------------------------------------------------------------------------------------------
@@ -321,3 +324,34 @@ body .crayon-theme-prism-like .crayon-pre .crayon-c {
     font-weight: 300 !important;
     /*color: ;*/
 }
+
+
+
+/* ---------------------------------------------------------------------------------------------------------
+ * New Single Style
+ -------------------------------------------------------------------------------------------------------- */
+
+.single header {background: #f9f9f9; padding: 60px 0 40px; position: relative;}
+.single header #home {position: absolute; left: 20px; top: 20px; font-size: 22px; width: 40px; height: 40px; 
+  line-height: 40px; text-align: center; background: #fff; border-radius: 30px; padding-left: 2px;}
+.single header img {width: 220px; height: auto; margin-left: -10px;}
+.single .overview {margin: 0;}
+.single .container {width: 760px;}
+.single h1 {margin: 0; padding: 0; font-size: 28px;}
+.single .post_date {font-size: 14px; padding: 12px 2px 0;}
+.single .col_full, 
+.single .col_box {width: 100%; margin-left: 0; float: none;}
+.single #page_footer,
+.single #page_footer #copyright {text-align: left; float: none; padding: 15px 0; color: #bbb;}
+.single #page_footer #copyright a {color: #999;}
+
+#reply-title, .view_box_title {font-size: 18px;}
+
+
+
+
+
+
+
+
+

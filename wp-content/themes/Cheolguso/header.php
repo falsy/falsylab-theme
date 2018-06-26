@@ -31,15 +31,13 @@
 
 <body <?php body_class(); ?>>
 
-<header id="page_header">
+<!-- <header id="page_header">
 	<div class="container">
 		<p>Cheol’s Laboratory</p>
 		<h1><a href="<?php echo home_url(); ?>">CHEOL<span class="highlight_color">’</span>GUSO</a></h1>
 		<nav>
 			<a href="/lab1">LAB1</a>
 			<a href="/lab2">LAB2</a>
-<!--			<a href="/lab3">LAB3</a> -->
-      <!-- <a href="/blog">BLOG</a> -->
 		</nav>
   </div>
-</header>
+</header> -->

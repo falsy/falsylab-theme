@@ -194,3 +194,39 @@
 	#page_content #other-posts .other-posts-container .col {width: 100%; margin: 0 0 10px;}
 
 }
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------
+ * New Single Style
+ -------------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width:767px){
+	.single .container {width: 480px;}
+}
+
+@media only screen and (max-width: 480px){
+	.single .container {width: 300px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
