@@ -159,7 +159,7 @@ margin:3px; display:inline-block;}
 #overview_img {background: #f9f9f9; position: relative; padding-bottom: 25%; background-size: 35%; background-position: 3% 65%; background-repeat: no-repeat;}
 
 #review_link {text-align:center; margin:30px 0 20px;}
-#review_link a {padding:8px 18px; font-size:14px; font-weight:bold; background:#33c1ab; border-radius:4px; transition: all 0.4s; color:#fff; opacity: 0.7;}
+#review_link a {padding:8px 18px; font-size:14px; font-weight:bold; background:#33c1ab; transition: all 0.4s; color:#fff; opacity: 0.7;}
 #review_link a:hover {opacity: 1;}
 
 #review_text {font-size: 16px;}
