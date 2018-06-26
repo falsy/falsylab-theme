@@ -331,7 +331,7 @@ body .crayon-theme-prism-like .crayon-pre .crayon-c {
  * New Single Style
  -------------------------------------------------------------------------------------------------------- */
 
-.single header {background: #f9f9f9; padding: 60px 0 40px; position: relative;}
+.single header {background: #f9f9f9; padding: 110px 0 50px; position: relative;}
 .single header #home {position: absolute; left: 20px; top: 20px; font-size: 22px; width: 40px; height: 40px; 
   line-height: 40px; text-align: center; background: #fff; border-radius: 30px; padding-left: 2px;}
 .single header img {width: 220px; height: auto; margin-left: -10px;}
