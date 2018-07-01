@@ -4,12 +4,12 @@
 <?php get_header(); ?>
 <header id="page_header">
   <div class="container">
-    <p>Cheol’s Laboratory</p>
+    <!-- <p>Cheol’s Laboratory</p> -->
     <h1><a href="<?php echo home_url(); ?>">CHEOL<span class="highlight_color">’</span>GUSO</a></h1>
-    <nav>
+    <!-- <nav>
       <a href="/lab1">LAB1</a>
       <a href="/lab2">LAB2</a>
-    </nav>
+    </nav> -->
   </div>
 </header>
 <section id="page_content">
