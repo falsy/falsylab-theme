@@ -208,7 +208,7 @@
 }
 
 @media only screen and (max-width: 550px){
-	#page_header {height: 130px; line-height: 130px;}
+	#page_header {height: 90px; line-height: 90px;}
 	.single header {padding-top: 50px;}
 }
 
