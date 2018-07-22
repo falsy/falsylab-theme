@@ -66,14 +66,8 @@ img#wpstats {display:none;}
 .fa-search {color:#f4eee2; position:absolute; font-size: 18px; position: absolute; margin: 8px 0 0 11px;}
 
 /* AD */
-#page_content .ad-title {margin:30px 0 10px; padding-left:5px; padding-bottom:3px; border-bottom:1px solid #ddd; font-size:11px; color:#bbb; text-align: left;}
-.first_ad_container {text-align:center; overflow:hidden;}
-.footer_sidebar {margin:70px 0 40px;}
-.ad_ps_text {border-top:1px solid #e6dfd2; padding:5px 0 0 3px; font-size:11px; color:#D8BBA9; margin-top:10px;}
-
-@media (max-width:1050px){
-	.ad_ps_text {padding-left:2px;}
-}
+.ad-title {margin:30px 0 10px; padding-left:5px; padding-bottom:3px; border-bottom:1px solid #ddd; font-size:11px; color:#bbb; text-align: left;}
+.footer-google {padding-bottom: 10px;}
 
 /* Tag */
 .side_widget .tag_cloud-2 {margin-top:20px;}
@@ -332,14 +326,14 @@ body .crayon-theme-prism-like .crayon-pre .crayon-c {
  -------------------------------------------------------------------------------------------------------- */
 
 .single header {background: #f9f9f9; padding: 110px 0 50px; position: relative;}
-.single header #home {position: absolute; left: 20px; top: 20px; font-size: 22px; width: 40px; height: 40px; 
+.single header #home {position: absolute; left: 20px; top: 20px; font-size: 22px; width: 40px; height: 40px;
   line-height: 40px; text-align: center; background: #fff; border-radius: 30px; padding-left: 2px; z-index: 100;}
 .single header img {width: 220px; height: auto; margin-left: -10px;}
 .single .overview {margin: 0;}
 .single .container {width: 760px;}
 .single h1 {margin: 0; padding: 0; font-size: 28px;}
 .single .post_date {font-size: 14px; padding: 12px 2px 0;}
-.single .col_full, 
+.single .col_full,
 .single .col_box {width: 100%; margin-left: 0; float: none;}
 .single #page_footer,
 .single #page_footer #copyright {text-align: left; float: none; padding: 15px 0; color: #bbb;}

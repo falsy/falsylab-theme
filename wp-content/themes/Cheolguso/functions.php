@@ -3,7 +3,7 @@
 //enqueue style & script
 function CGS_scripts_styles() {
   wp_enqueue_style( 'cgs_proxima_nova', get_template_directory_uri() . '/css/cgs_proxima_nova.css', false, '1.0.0');
-  wp_enqueue_style( 'cgs_style', get_template_directory_uri() . '/css/style.css', false, '1.0.33');
+  wp_enqueue_style( 'cgs_style', get_template_directory_uri() . '/css/style.css', false, '1.0.34');
   wp_enqueue_style( 'cgs_responsive', get_template_directory_uri() . '/css/responsive_style.css', false, '1.0.25');
 }
 add_action( 'wp_enqueue_scripts', 'CGS_scripts_styles' );
@@ -72,11 +72,11 @@ function cgs_comment($comment, $args, $depth) {
   </div>
 
   <?php comment_text(); ?>
-  
+
   <div class="reply">
   <?php comment_reply_link( array_merge( $args, array( 'add_below' => $add_below, 'depth' => $depth, 'max_depth' => $args['max_depth'], 'reply_text' => '' ) ) ); ?>
   </div>
-  
+
   <?php if ( 'div' != $args['style'] ) : ?>
   </div>
   <?php endif; ?>
