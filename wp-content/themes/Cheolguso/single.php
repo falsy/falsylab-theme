@@ -13,6 +13,19 @@
   </header>
   <div class="container">
     <?php the_content(); ?>
+    <div class="footer-google">
+      <p class="ad-title">Advertisement</p>
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+      <!-- single-footer-ad -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-8365775889087902"
+           data-ad-slot="7799276196"
+           data-ad-format="auto"></ins>
+      <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
     <?php comments_template(); ?>
   <?php endwhile; ?>
   </div>
