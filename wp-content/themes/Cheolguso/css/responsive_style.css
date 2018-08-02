@@ -138,7 +138,8 @@
 	.project_list.about_last .col_half {width:300px;}
 
 	#page_header p {display: none;}
-	#page_header h1 {line-height: 50px; position: static; padding-top: 30px;}
+	#page_header h1 {line-height: 50px; position: static; padding-top: 45px;}
+	#page_header h1 a img {width: 150px;}
 	#page_header nav {text-align:center; float: none; line-height: 30px;}
 	#page_header nav a {margin: 0 5px; line-height: 30px; padding: 0 5px;}
 	.ontheanvil > span {display:none;}
@@ -208,7 +209,7 @@
 }
 
 @media only screen and (max-width: 550px){
-	#page_header {height: 90px; line-height: 90px;}
+	#page_header {height: 120px; line-height: 120px;}
 	.single header {padding-top: 50px;}
 }
 
