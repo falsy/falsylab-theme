@@ -5,7 +5,7 @@
 <header id="page_header">
   <div class="container">
     <!-- <p>Cheol’s Laboratory</p> -->
-    <h1><a href="<?php echo home_url(); ?>">CHEOL<span class="highlight_color">’</span>GUSO</a></h1>
+    <h1><a href="<?php echo home_url(); ?>"><img src="https://cheolguso.com/wp-content/uploads/2018/08/logo.png" alt="cheolguso logo" width="200"/></a></h1>
     <!-- <nav>
       <a href="/lab1">LAB1</a>
       <a href="/lab2">LAB2</a>
