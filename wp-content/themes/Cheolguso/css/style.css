@@ -105,7 +105,7 @@ margin:3px; display:inline-block;}
 
 #page_content article h2 {font-size:13px; font-weight: normal;}
 #page_content article .post_content_box {line-height: 0;}
-#page_content article .post_content_box figure {background: #f9f9f9;}
+#page_content article .post_content_box figure {background: #f9f9f9; height: 90px;}
 #page_content article .post_content_box img {width:100%; height: auto; max-width: 200px;}
 
 #page_content article div > a {position:absolute; z-index:100; top: 0; left: 0; right: 0; bottom: 0; background: #fff; opacity: 0;}
@@ -195,6 +195,7 @@ margin:3px; display:inline-block;}
 #other-posts h3 {font-size: 15px; color: #111; padding: 10px 0; margin: 10px 0; border-bottom: 1px solid #ddd; font-style: italic; font-weight: normal; border-top: 0;}
 #page_content #other-posts .other-posts-container {margin: 0 -20px;}
 #page_content #other-posts .other-posts-container .col {width: 33.33%;}
+
 
 /* ---------------------------------------------------------------------------------------------------------
  * comment
@@ -329,7 +330,7 @@ body .crayon-theme-prism-like .crayon-pre .crayon-c {
  * New Single Style
  -------------------------------------------------------------------------------------------------------- */
 
-.single header {background: #f9f9f9; padding: 110px 0 50px; position: relative;}
+.single header {background: #f9f9f9; padding: 180px 0 50px; position: relative;}
 .single header #home {position: absolute; left: 20px; top: 20px; font-size: 22px; width: 40px; height: 40px;
   line-height: 40px; text-align: center; background: #fff; border-radius: 30px; padding-left: 2px; z-index: 100;}
 .single header #home img {width: 24px; text-align: center; vertical-align: middle; margin: -4px 0 0 0px;}
