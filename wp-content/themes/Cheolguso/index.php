@@ -5,7 +5,7 @@
 <header id="page_header">
   <div class="container">
     <!-- <p>Cheol’s Laboratory</p> -->
-    <h1><a href="<?php echo home_url(); ?>"><img src="https://lab.falsy.me/wp-content/uploads/2018/10/logo-falsylab-v2.png" alt="falsy logo" width="200"/></a></h1>
+    <h1><a href="<?php echo home_url(); ?>"><img src="https://lab.falsy.me/wp-content/uploads/2018/10/logo-falsylab-v3.png" alt="falsy logo" width="280"/></a></h1>
     <!-- <nav>
       <a href="/lab1">LAB1</a>
       <a href="/lab2">LAB2</a>
