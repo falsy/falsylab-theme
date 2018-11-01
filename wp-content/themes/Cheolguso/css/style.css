@@ -22,7 +22,7 @@ img#wpstats {display:none;}
 /* ---------------------------------------------------------------------------------------------------------
  * Header
  -------------------------------------------------------------------------------------------------------- */
-#page_header {height: 220px; line-height: 220px;}
+#page_header {height: 220px; line-height: 220px; overflow: hidden;}
 #page_header nav {position: relative; float: left; z-index: 10; margin-left: 230px;}
 #page_header nav a {color:#000; margin:0 0 0 70px; display: inline-block; font-size: 16px;}
 #page_header h1 {position: absolute; width: 100%; text-align: left; font-size: 24px; font-weight: normal; margin: 0;}
@@ -104,12 +104,12 @@ margin:3px; display:inline-block;}
 
 #page_content article h2 {font-size:13px; font-weight: normal;}
 #page_content article .post_content_box {line-height: 0;}
-#page_content article .post_content_box figure {background: #f9f9f9; height: 90px;}
+#page_content article .post_content_box figure {background: #f9f9f9; height: 140px;}
 #page_content article .post_content_box img {width:100%; height: auto; max-width: 200px;}
 
 #page_content article div > a {position:absolute; z-index:100; top: 0; left: 0; right: 0; bottom: 0; background: #fff; opacity: 0;}
 #page_content article .thumb_text {padding:10px 5px 0; height: 70px; overflow: hidden;}
-#page_content article .thumb_text p {line-height: 20px; color: #444;}
+#page_content article .thumb_text p {color: #111; font-size: 14px; line-height: 22px;}
 
 #page_content article .view_like_box {width:100%; text-align:right; color:#c0c0c0; padding: 20px 16px 10px 0; font-size: 11px;}
 #page_content article .view_like_box > p {display:inline-block; margin-left:10px;}
@@ -174,7 +174,7 @@ margin:3px; display:inline-block;}
 .view_box_title {color:#111; font-size:16px; font-style:italic; padding:10px 0; border-bottom:1px solid #ddd;
 				margin-bottom:10px;}
 
-.post_date {padding: 10px 5px 0; font-size: 11px; color: #e0e0e0; line-height: 12px; letter-spacing: 0.3px;}
+.post_date {padding: 10px 5px 0; font-size: 12px; color: #bbb; line-height: 12px; letter-spacing: 0.3px;}
 
 
 #review_text .basic-text-box {padding: 10px 20px;}
