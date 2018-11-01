@@ -2,7 +2,6 @@
 <div id="post-<?php the_ID() ; ?>" <?php post_class('overview'); ?>>
   <?php while ( have_posts() ) : the_post(); ?>
   <header>
-    <div id="home"><a href="<?php echo home_url(); ?>"><img src="https://lab.falsy.me/wp-content/uploads/2018/10/falsylab-icon-v2.png" alt="cheolguso logo" width="24"/></a></div>
     <div class="container">
       <h1><?php the_title(); ?></h1>
       <p class="post_date highlight_color"><?php the_date('Y-m-d'); ?></p>
