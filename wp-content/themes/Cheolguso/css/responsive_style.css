@@ -183,7 +183,7 @@
 	.overview h1 {font-size: 20px;}
 	.single-post .overview h3 {font-size: 17px;}
 
-	#footer-nav, #copyright {float: none; text-align: center;}
+	#footer-nav, #copyright {float: none; }
 
 	/* single other posts */
 	#page_content #other-posts .other-posts-container .col {width: 100%; margin: 0 0 10px;}
