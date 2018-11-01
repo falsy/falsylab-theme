@@ -134,7 +134,7 @@
 	#page_header h1 {line-height: 50px; position: static; padding: 15px 0 10px;}
 	#page_header h1 a img {width: 140px; margin-top: 20px;}
 	#page_header nav {text-align: left; float: none; line-height: 30px; margin-left: 0;}
-	#page_header nav a {margin: 0 5px; line-height: 30px; padding: 0 5px;}
+	#page_header nav a {margin: 0 20px 0 0;}
 	.ontheanvil > span {display:none;}
 
 	#page_content article {width: 100%; margin-left: 10px; margin-right: 10px; margin-bottom: 30px;}
