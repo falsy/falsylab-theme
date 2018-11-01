@@ -27,7 +27,7 @@ img#wpstats {display:none;}
 #page_header nav a {color:#000; margin:0 0 0 40px; display: inline-block; font-size: 16px;}
 #page_header h1 {position: absolute; width: 100%; text-align: left; font-size: 24px; font-weight: normal; margin: 0;}
 #page_header h1 a {color: #111;}
-#page_header h1 a img {vertical-align: middle;}
+#page_header h1 a img {vertical-align: middle; margin-left: -12px;}
 #page_header:after {content: ''; clear: both; display: block;}
 
 .single #page_header {height: 100px; line-height: 100px; position: fixed; width: 120px; z-index: 100; top: 0; left: 10px; background: transparent;}
@@ -268,7 +268,7 @@ div.wpcf7-mail-sent-ok {color:#71aaad; border:0; margin:0; padding:0;}
  -------------------------------------------------------------------------------------------------------- */
 #history ul li {margin:12px 0;}
 #history ul li p {color:#777;}
-#history ul li p span {color:#33c1ab; display: inline-block; width: 90px;}
+#history ul li p span {color:#000; display: inline-block; width: 90px;}
 
 
 /* ---------------------------------------------------------------------------------------------------------
