@@ -24,18 +24,6 @@
  * media query
  -------------------------------------------------------------------------------------------------------- */
 
-@media only screen and (min-width: 1440px) {
-	.home #page_content .container, .page-template-page-lab-cheolguso #page_content .container {width: 1200px;}
-	.home #page_content .col_box_full, .page-template-page-lab-cheolguso #page_content .col_box_full {width: 1240px;}
-	.col {width: 25%;}
-}
-
-@media only screen and (min-width: 1640px) {
-	.home #page_content .container, .page-template-page-lab-cheolguso #page_content .container {width: 1400px;}
-	.home #page_content .col_box_full, .page-template-page-lab-cheolguso #page_content .col_box_full {width: 1440px;}
-	.col {width: 20%;}
-}
-
 @media only screen and (max-width:1050px){
 	.container {width:800px; position:relative; margin:0 auto;}
 	.col_box {width:636px; margin-left:-20px; float:left;}
