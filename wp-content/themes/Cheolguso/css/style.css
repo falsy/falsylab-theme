@@ -30,6 +30,11 @@ img#wpstats {display:none;}
 #page_header h1 a img {vertical-align: middle;}
 #page_header:after {content: ''; clear: both; display: block;}
 
+.single #page_header {height: 80px; line-height: 80px; position: fixed; width: 100%; z-index: 100; top: 0; background: transparent;}
+.single #page_header .container {width: 90%;}
+.single #page_header h1 a img {width: 100px; padding: 10px;}
+.single #page_header nav {display: none;}
+
 /* ---------------------------------------------------------------------------------------------------------
  * Footer
  -------------------------------------------------------------------------------------------------------- */
@@ -329,7 +334,7 @@ body .crayon-theme-prism-like .crayon-pre .crayon-c {
  * New Single Style
  -------------------------------------------------------------------------------------------------------- */
 
-.single .overview header {background: #f9f9f9; padding: 60px 0 50px; position: relative;}
+.single .overview header {background: #f9f9f9; padding: 160px 0 50px; position: relative;}
 .single .overview header #home {position: absolute; left: 20px; top: 20px; font-size: 22px; width: 40px; height: 40px;
   line-height: 40px; text-align: center; background: #fff; border-radius: 30px; padding-left: 2px; z-index: 100;}
 .single .overview header #home img {width: 24px; text-align: center; vertical-align: middle; margin: -4px 0 0 0px;}
