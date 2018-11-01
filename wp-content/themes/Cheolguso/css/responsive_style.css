@@ -137,9 +137,10 @@
 	#page_header nav a {margin: 0 20px 0 0;}
 	.ontheanvil > span {display:none;}
 
-	#page_content article {width: 100%; margin-left: 10px; margin-right: 10px; margin-bottom: 30px;}
+	#page_content article {width: 100%; margin: 0 10px 10px;}
 	#page_content article h2 {height: auto;}
 	#page_content article .thumb_text {height: auto;}
+	#page_content article .thumb_text p {line-height: 20px;}
 
 	/*.thumb_text {display:none;}*/
 
@@ -190,6 +191,8 @@
 	.single #page_header {padding-top: 0; position: absolute; width: 100%; left: 0;}
 	.single .overview header {padding-top: 120px;}
 	.single #page_header h1 a img {width: 80px; padding: 0; margin: 10px 0 0 -6px;}
+
+	#page_content article .post_content_box figure {height: 120px;}
 }
 
 
