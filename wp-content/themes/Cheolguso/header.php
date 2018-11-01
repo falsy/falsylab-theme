@@ -37,7 +37,7 @@
     <h1><a href="<?php echo home_url(); ?>"><img src="https://lab.falsy.me/wp-content/uploads/2018/11/logo.png" alt="falsy logo" width="160"/></a></h1>
     <nav>
       <a href="#">ABOUT</a>
-      <a href="#">PROGRAMMING</a>
+      <a href="<?php echo home_url(); ?>">PROGRAMMING</a>
     </nav>
   </div>
 </header>

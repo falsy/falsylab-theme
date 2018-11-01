@@ -24,7 +24,7 @@ img#wpstats {display:none;}
  -------------------------------------------------------------------------------------------------------- */
 #page_header {height: 220px; line-height: 220px; overflow: hidden;}
 #page_header nav {position: relative; float: left; z-index: 10; margin-left: 230px;}
-#page_header nav a {color:#000; margin:0 0 0 70px; display: inline-block; font-size: 16px;}
+#page_header nav a {color:#000; margin:0 0 0 40px; display: inline-block; font-size: 16px;}
 #page_header h1 {position: absolute; width: 100%; text-align: left; font-size: 24px; font-weight: normal; margin: 0;}
 #page_header h1 a {color: #111;}
 #page_header h1 a img {vertical-align: middle;}
