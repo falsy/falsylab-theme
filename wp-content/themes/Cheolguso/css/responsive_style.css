@@ -76,6 +76,7 @@
 
 	.project_list.about_last .col_half {width:480px;}
 
+	#page_header nav {float: right;}
 	#page_header .col:first-child {width:120px;}
 	#page_header .col_box_full #title {display:none;}
 
