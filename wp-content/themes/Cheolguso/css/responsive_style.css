@@ -187,6 +187,9 @@
 	/* single other posts */
 	#page_content #other-posts .other-posts-container .col {width: 100%; margin: 0 0 10px;}
 
+	.single #page_header {padding-top: 0; position: absolute; width: 100%;}
+	.single .overview header {padding-top: 160px;}
+	.single #page_header h1 a img {width: 80px; padding: 0; margin: 0 0 0 -10px;}
 }
 
 
