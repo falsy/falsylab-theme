@@ -274,6 +274,12 @@ div.wpcf7-mail-sent-ok {color:#71aaad; border:0; margin:0; padding:0;}
 /* ---------------------------------------------------------------------------------------------------------
  * Content - about
  -------------------------------------------------------------------------------------------------------- */
+
+#about-page { line-height: 26px; color: #000;}
+#about-page a { color: #666; }
+#about-page a:hover { color: #444; }
+
+
 #itsme {background:#eee6d7; padding:20px 10px 20px 20px; box-sizing:border-box; border-radius:5px; border:1px solid #e7dec7;
 -moz-box-sizing:border-box;}
 #itsme img,#itsme  p {float:left;}
