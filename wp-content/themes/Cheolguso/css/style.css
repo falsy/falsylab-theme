@@ -109,8 +109,8 @@ margin:3px; display:inline-block;}
 
 #page_content article h2 {font-size:13px; font-weight: normal;}
 #page_content article .post_content_box {line-height: 0;}
-#page_content article .post_content_box figure {background: #f9f9f9; height: 160px;}
-#page_content article .post_content_box img {width:100%; height: auto; max-width: 200px;}
+#page_content article .post_content_box figure {background: #f9f9f9;}
+#page_content article .post_content_box img {width:100%; height: auto;}
 
 #page_content article div > a {position:absolute; z-index:100; top: 0; left: 0; right: 0; bottom: 0; background: #fff; opacity: 0;}
 #page_content article .thumb_text {padding:10px 5px 0; height: 70px; overflow: hidden;}
