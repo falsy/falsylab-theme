@@ -124,7 +124,7 @@
 @media only screen and (max-width:550px){
 	.container {width:300px; position:relative; margin:0 auto;}
 	.col_box {width:320px; margin-left:-20px; float:left;}
-	.col_box_full {width:320px; margin-left:-20px;}
+	.col_box_full {width:auto; margin: 10px -10px;}
 	.col {width:140px; margin-left:20px; float:left; }
 	.col_half {width:300px; margin-left:20px; float:left;}
 
@@ -137,10 +137,10 @@
 	#page_header nav a {margin: 0 20px 0 0;}
 	.ontheanvil > span {display:none;}
 
-	#page_content article {width: 100%; margin: 0 10px 10px;}
+	#page_content article {width: 50%; margin: 0 0 20px;}
 	#page_content article h2 {height: auto;}
-	#page_content article .thumb_text {height: auto;}
-	#page_content article .thumb_text p {line-height: 20px;}
+	#page_content article .thumb_text {height: 75px;}
+	#page_content article .thumb_text p {line-height: 18px; font-size: 12px;}
 
 	/*.thumb_text {display:none;}*/
 
@@ -183,7 +183,7 @@
 	.overview h1 {font-size: 20px;}
 	.single-post .overview h3 {font-size: 17px;}
 
-	#footer-nav, #copyright {float: none; }
+	#footer-nav, #copyright {float: none; font-size: 10px;}
 
 	/* single other posts */
 	#page_content #other-posts .other-posts-container .col {width: 100%; margin: 0 0 10px;}
@@ -193,6 +193,8 @@
 	.single #page_header h1 a img {width: 80px; padding: 0; margin: 10px 0 0 -6px;}
 
 	#page_content article .post_content_box figure {height: 120px;}
+
+	#page_header nav a:first-child {margin-left: 0;}
 }
 
 
