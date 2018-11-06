@@ -2,10 +2,10 @@
  * basic query
  -------------------------------------------------------------------------------------------------------- */
 
-.container {width:1000px; position:relative; margin:0 auto;}
+.container {width:1200px; position:relative; margin:0 auto;}
 .col_box {width:836px; margin-left:-40px; float:left;}
-.col_box_full {width:1040px; margin:0 -20px;}
-.col {width:33.33%;float:left; }
+.col_box_full {margin:0 -20px;}
+.col {width:25%; float:left; }
 .col > div {padding: 0 20px 20px;}
 .col.sidebar {width:164px; margin-left:40px; float:left; }
 .col.sidebar > div {padding: 0;}
