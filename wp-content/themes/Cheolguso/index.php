@@ -20,7 +20,7 @@
             <div>
               <div class="post_content_box">
                 <figure>
-                  <?php //the_post_thumbnail(); ?>
+                  <?php the_post_thumbnail(); ?>
                 </figure>
                 <h2 class="thumb_text">
                   <?php echo the_excerpt() ?>

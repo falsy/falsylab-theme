@@ -3,8 +3,8 @@
 //enqueue style & script
 function CGS_scripts_styles() {
   wp_enqueue_style( 'cgs_proxima_nova', get_template_directory_uri() . '/css/cgs_proxima_nova.css', false, '1.0.0');
-  wp_enqueue_style( 'cgs_style', get_template_directory_uri() . '/css/style.css', false, '1.1.4');
-  wp_enqueue_style( 'cgs_responsive', get_template_directory_uri() . '/css/responsive_style.css', false, '1.1.5');
+  wp_enqueue_style( 'cgs_style', get_template_directory_uri() . '/css/style.css', false, '1.1.5');
+  wp_enqueue_style( 'cgs_responsive', get_template_directory_uri() . '/css/responsive_style.css', false, '1.1.6');
 }
 add_action( 'wp_enqueue_scripts', 'CGS_scripts_styles' );
 
