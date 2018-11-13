@@ -35,6 +35,12 @@
             </div>
           </article>
         <?php endwhile; ?>
+        <?php else: ?>
+          <article class="col">
+            <div>
+              <p>글이 없습니다.</p>
+            </div>
+          </article>
         <?php endif; ?>
         <?php wp_reset_query(); ?>
    </div>
