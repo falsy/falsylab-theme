@@ -48,7 +48,8 @@
     <h1><a href="<?php echo home_url(); ?>"><img src="https://lab.falsy.me/wp-content/uploads/2018/11/logo.png" alt="falsy logo" width="160"/></a></h1>
     <nav>
       <a href="<?php echo home_url(); ?>/about">About</a>
-      <a href="<?php echo home_url(); ?>">Programming</a>
+      <a href="<?php echo home_url(); ?>/programming">Programming</a>
+      <a href="<?php echo home_url(); ?>/blog">Blog</a>
     </nav>
   </div>
 </header>
