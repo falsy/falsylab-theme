@@ -8,7 +8,8 @@
     <div class="col_box_full">
       <?php
       while ( have_posts() ) :
-       ?>
+        the_post();
+      ?>
         <article id="post-<?php the_ID() ; ?>" <?php post_class('col'); ?>>
           <div>
             <div>
