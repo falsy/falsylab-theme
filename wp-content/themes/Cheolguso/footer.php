@@ -2,7 +2,7 @@
             <div class="container">
             	<section>
                     <p id="copyright">
-                        Copyright &copy; 2014-2018 FALSY LAB. All Rights Reserved<br />
+                        Copyright &copy; 2014-2019 FALSY LAB. All Rights Reserved<br />
                     </p>
                 </section>
             </div>
