@@ -53,42 +53,42 @@ function text_box_fnc($atts, $content) {
 }
 add_shortcode('text_box', 'text_box_fnc');
 
-// function line_box_fnc($atts, $content) {
-//   $atts = shortcode_atts( array(
-//     'color' => '#111',
-//   ), $atts, 'line_box');
+function line_box_fnc($atts, $content) {
+  $atts = shortcode_atts( array(
+    'color' => '#111',
+  ), $atts, 'line_box');
 
-//   $color = $atts['color']
-//   $color = $color === 'y' ? '#ffdc30' : $color;
-//   $color = $color === 'o' ? '#ffa330' : $color;
-//   $color = $color === 'r' ? '#f35f5f' : $color;
-//   $color = $color === 'g' ? '#77c38b' : $color;
+  $color = $atts['color'];
+  $color = $color === 'y' ? '#ffdc30' : $color;
+  $color = $color === 'o' ? '#ffa330' : $color;
+  $color = $color === 'r' ? '#f35f5f' : $color;
+  $color = $color === 'g' ? '#77c38b' : $color;
 
-//   return '<p class="left-line-box" style="border-color: '.$color.';">'
-//             .do_shortcode($content).
-//           '</p>';
-// }
-// add_shortcode('line_box', 'line_box_fnc');
+  return '<p class="left-line-box" style="border-color: '.$color.';">'
+            .do_shortcode($content).
+          '</p>';
+}
+add_shortcode('line_box', 'line_box_fnc');
 
-// function img_box_fnc($atts) {
-//   $atts = shortcode_atts( array(
-//     'url' => '',
-//   ), $atts, 'img_box');
+function img_box_fnc($atts) {
+  $atts = shortcode_atts( array(
+    'url' => '',
+  ), $atts, 'img_box');
 
-//   return '<img src="'.$atts['url'].'" alt="" style="max-width: 100%;">';
-// }
-// add_shortcode('img_box', 'img_box_fnc');
+  return '<img src="'.$atts['url'].'" alt="" style="max-width: 100%;">';
+}
+add_shortcode('img_box', 'img_box_fnc');
 
-// function img_box_bg_fnc($atts) {
-//   $atts = shortcode_atts( array(
-//     'url' => '',
-//   ), $atts, 'img_box_bg');
+function img_box_bg_fnc($atts) {
+  $atts = shortcode_atts( array(
+    'url' => '',
+  ), $atts, 'img_box_bg');
   
-//   return '<div style="background: #f5f8f6; padding: 15px 20px;">
-//             <img src="'.$atts['url'].'" alt="" style="max-width: 100%;">
-//           </div>';
-// }
-// add_shortcode('img_box_bg', 'img_box_bg_fnc');
+  return '<div style="background: #f5f8f6; padding: 15px 20px;">
+            <img src="'.$atts['url'].'" alt="" style="max-width: 100%;">
+          </div>';
+}
+add_shortcode('img_box_bg', 'img_box_bg_fnc');
 
 
 //feed
