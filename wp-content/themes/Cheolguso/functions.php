@@ -24,6 +24,72 @@ if(function_exists('register_sidebar')){
   ));
 }
 
+//shortcode
+function post_page_fnc($atts, $content) {
+  return '<div id="view_post">
+            <div class="col_box">
+              <div class="col_half col_full">
+                <p class="view_box_title" style="margin-top: 30px;">Explanation</p>
+                <div id="review_text">'
+                .do_shortcode($content).
+                '</div>
+              </div>
+            </div>
+          </div>';
+}
+add_shortcode('post_page', 'post_page_fnc');
+
+function head_box_fnc($atts, $content) {
+  return '<p style="margin-bottom: 30px;">'
+            .do_shortcode($content).
+          '</p>';
+}
+add_shortcode('head_box', 'head_box_fnc');
+
+function text_box_fnc($atts, $content) {
+  return '<p class="basic-text-box">'
+            .do_shortcode($content).
+          '</p>';
+}
+add_shortcode('text_box', 'text_box_fnc');
+
+function line_box_fnc($atts, $content) {
+  $atts = shortcode_atts( array(
+    'color' => '#111',
+  ), $atts, 'line_box');
+
+  $color = $atts['color']
+  $color = $color === 'y' ? '#ffdc30' : $color;
+  $color = $color === 'o' ? '#ffa330' : $color;
+  $color = $color === 'r' ? '#f35f5f' : $color;
+  $color = $color === 'g' ? '#77c38b' : $color;
+
+  return '<p class="left-line-box" style="border-color: '.$color.';">'
+            .do_shortcode($content).
+          '</p>';
+}
+add_shortcode('line_box', 'line_box_fnc');
+
+function img_box_fnc($atts) {
+  $atts = shortcode_atts( array(
+    'url' => '',
+  ), $atts, 'img_box');
+
+  return '<img src="'.$atts['url'].'" alt="" style="max-width: 100%;">';
+}
+add_shortcode('img_box', 'img_box_fnc');
+
+function img_box_bg_fnc($atts) {
+  $atts = shortcode_atts( array(
+    'url' => '',
+  ), $atts, 'img_box_bg');
+  
+  return '<div style="background: #f5f8f6; padding: 15px 20px;">
+            <img src="'.$atts['url'].'" alt="" style="max-width: 100%;">
+          </div>';
+}
+add_shortcode('img_box_bg', 'img_box_bg_fnc');
+
 
 //feed
 function cgs_feed_request($qv) {
@@ -82,8 +148,4 @@ function cgs_comment($comment, $args, $depth) {
   <?php endif; ?>
 <?php
 }
-
-//shortcode
-
-
 ?>
