@@ -39,19 +39,19 @@ function post_page_fnc($atts, $content) {
 }
 add_shortcode('post_page', 'post_page_fnc');
 
-// function head_box_fnc($atts, $content) {
-//   return '<p style="margin-bottom: 30px;">'
-//             .do_shortcode($content).
-//           '</p>';
-// }
-// add_shortcode('head_box', 'head_box_fnc');
+function head_box_fnc($atts, $content) {
+  return '<p style="margin-bottom: 30px;">'
+            .do_shortcode($content).
+          '</p>';
+}
+add_shortcode('head_box', 'head_box_fnc');
 
-// function text_box_fnc($atts, $content) {
-//   return '<p class="basic-text-box">'
-//             .do_shortcode($content).
-//           '</p>';
-// }
-// add_shortcode('text_box', 'text_box_fnc');
+function text_box_fnc($atts, $content) {
+  return '<p class="basic-text-box">'
+            .do_shortcode($content).
+          '</p>';
+}
+add_shortcode('text_box', 'text_box_fnc');
 
 // function line_box_fnc($atts, $content) {
 //   $atts = shortcode_atts( array(
