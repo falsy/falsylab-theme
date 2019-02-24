@@ -25,6 +25,17 @@ if(function_exists('register_sidebar')){
 }
 
 //shortcode
+function a_link_shortcode_fnc($atts, $content) {
+  $atts = shortcode_atts( array(
+    'self' => 'false',
+  ), $atts, 'al');
+  $target = $atts['self'] === 'false' ? '_blank' : '_self';
+  return '<a href="'.$content.'" target="'.$target.'">'
+            .$content.
+          '</a>';
+}
+add_shortcode('al', 'a_link_shortcode_fnc');
+
 function post_page_fnc($atts, $content) {
   return '<div id="view_post">
             <div class="col_box">
