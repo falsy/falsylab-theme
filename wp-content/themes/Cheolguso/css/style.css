@@ -248,7 +248,7 @@ margin:3px; display:inline-block;}
 .comment-author.vcard {float:left; margin-right:10px; margin-top:-1px;}
 .comment-author.vcard cite {color: #33c1ab;}
 
-.comment-form-author label, .comment-form-email label, .comment-form-url label, .comment-form-comment label {display: none;}
+/*.comment-form-author label, .comment-form-email label, .comment-form-url label, .comment-form-comment label {display: none;}*/
 
 
 /* ---------------------------------------------------------------------------------------------------------

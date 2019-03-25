@@ -6,6 +6,10 @@ if ( post_password_required() ) {
 
 <div id="comments" class="comments-area">
 	<?php 
+		$commenter = wp_get_current_commenter();
+		$req = get_option( 'require_name_email' );
+		$aria_req = ( $req ? " aria-required='true'" : '' );
+
 		$args = array(
 			'title_reply'	=> 'Leave a Reply',
 			'comment_notes_before'	=> '',
