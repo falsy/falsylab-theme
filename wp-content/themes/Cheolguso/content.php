@@ -1,7 +1,7 @@
 <article id="post-<?php the_ID() ; ?>" <?php post_class('col'); ?>>
   <div>
     <div>
-      <div class="post_content_box 123">
+      <div class="post_content_box">
         <figure>
           <?php the_post_thumbnail(); ?>
         </figure>
