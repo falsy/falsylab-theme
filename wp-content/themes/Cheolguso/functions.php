@@ -159,4 +159,10 @@ function cgs_comment($comment, $args, $depth) {
   <?php endif; ?>
 <?php
 }
+
+
+add_theme_support( 'infinite-scroll', array(
+    'container' => 'content',
+    'footer' => 'page',
+) );
 ?>
