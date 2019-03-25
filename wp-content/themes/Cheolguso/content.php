@@ -6,7 +6,7 @@
           <?php the_post_thumbnail(); ?>
         </figure>
         <h2 class="thumb_text">
-          <?php echo the_excerpt() ?>
+          <?php the_excerpt() ?>
         </h2>
         <div class="post_date">
           <span><?php echo get_the_date('Y-m-d'); ?></span>
