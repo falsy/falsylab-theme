@@ -2,9 +2,10 @@
 
 //enqueue style & script
 function CGS_scripts_styles() {
-  wp_enqueue_style( 'cgs_proxima_nova', get_template_directory_uri() . '/css/cgs_proxima_nova.css', false, '1.0.0');
+  // wp_enqueue_style( 'cgs_proxima_nova', get_template_directory_uri() . '/css/cgs_proxima_nova.css', false, '1.0.0');
   wp_enqueue_style( 'cgs_style', get_template_directory_uri() . '/css/style.css', false, '1.1.9');
   wp_enqueue_style( 'cgs_responsive', get_template_directory_uri() . '/css/responsive_style.css', false, '1.1.8');
+  wp_enqueue_script( 'falsy_proxima_nova' , get_template_directory_uri() . '/js/falsy_proxima_nova.js', null, false, false);
 }
 add_action( 'wp_enqueue_scripts', 'CGS_scripts_styles' );
 
@@ -161,8 +162,8 @@ function cgs_comment($comment, $args, $depth) {
 }
 
 
-add_theme_support( 'infinite-scroll', array(
-    'container' => 'content',
-    'footer' => 'page',
-) );
+// add_theme_support( 'infinite-scroll', array(
+//     'container' => 'content',
+//     'footer' => 'page',
+// ) );
 ?>

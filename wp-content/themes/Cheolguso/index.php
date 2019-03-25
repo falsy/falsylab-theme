@@ -13,18 +13,11 @@
 
         if($lab_query->have_posts()) :
         while($lab_query->have_posts()) :
-        $lab_query->the_post();
-      ?>
-      <?php
-      // if ( have_posts() ) {
-      //   while ( have_posts() ) {
-          // the_post();
+          $lab_query->the_post();
           get_template_part( 'content' );
-      //   }
-      // }
-      ?>
-      <?php endwhile; ?>
-      <?php else: ?>
+        endwhile;
+        else: 
+        ?>
         <article class="col">
           <div>
             <p>글이 없습니다.</p>
