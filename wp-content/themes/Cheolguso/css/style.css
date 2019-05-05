@@ -31,8 +31,8 @@ img#wpstats {display:none;}
 #page_header h1 a img {vertical-align: middle; margin-left: -12px;}
 #page_header:after {content: ''; clear: both; display: block;}
 
-.single #page_header {height: 100px; line-height: 100px; position: fixed; width: 120px; z-index: 100; top: 0; left: 10px; background: transparent;}
-.single #page_header h1 a img {width: 120px; padding: 10px;}
+.single #page_header {height: 84px; position: fixed; width: 116px; z-index: 100; top: 2%; left: 2%; background: transparent;}
+.single #page_header h1 a img {width: 116px; padding: 10px;}
 .single #page_header nav {display: none;}
 
 /* ---------------------------------------------------------------------------------------------------------
