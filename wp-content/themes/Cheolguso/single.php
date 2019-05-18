@@ -13,11 +13,11 @@
     </a></div>
   </header>
   <div class="container">
-    <?php the_content(); ?>
-
     <div class="sidebar">
       <?php get_sidebar(); ?>
     </div>
+    
+    <?php the_content(); ?>
 
     <div class="footer-google">
       <p class="ad-title">Advertisement</p>
