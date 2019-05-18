@@ -31,7 +31,7 @@
       (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
       <div class="donate-text">
-        <p>광고 수익금 전액은 소년소녀가정에 기부 됩니다.</p>
+        <p>&#x1F495;&nbsp;광고 수익금 전액은 소년소녀가정에 기부 됩니다.</p>
       </div>
     </div>
 
