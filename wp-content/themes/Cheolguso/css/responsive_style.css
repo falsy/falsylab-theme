@@ -103,8 +103,9 @@
 	/*.thumb_text {display:block;}*/
 
 	/*ad*/
-	.sidebar {display: none;}
-	
+	.sidebar {position: static;}
+	.sidebar .first_ad_container {width: 100%;}
+
 	#ad {display:none;}
 	#search_box {border-bottom:0px; border-top:1px solid #e6dfd2; margin-top:40px; padding-top:40px; }
 
@@ -114,9 +115,9 @@
 
 	.side_widget .text-2 {display: none;}
 
-	.side_widget .widget_text.custom_html-2 {display: none;}
-	.donate-text {display: none;}
-	.footer_sidebar .donate-text {display: block;}
+	/*.side_widget .widget_text.custom_html-2 {display: none;}*/
+	/*.donate-text {display: none;}*/
+	/*.footer_sidebar .donate-text {display: block;}*/
 
 	/* single other posts */
 	#page_content #other-posts .other-posts-container {margin: 0 -10px;}
