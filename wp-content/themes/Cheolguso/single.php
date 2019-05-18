@@ -16,7 +16,7 @@
     <div class="sidebar">
       <?php get_sidebar(); ?>
     </div>
-    
+
     <?php the_content(); ?>
 
     <div class="footer-google">
@@ -30,6 +30,7 @@
       <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
+      <p class="donate-text">광고 수익 전액은 소년소녀가정에 기부 됩니다.</p>
     </div>
 
     <?php comments_template(); ?>
