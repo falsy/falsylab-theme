@@ -21,7 +21,6 @@
 
     <div class="footer-google">
       <p class="ad-title">Advertisement</p>
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <!-- single-footer-ad -->
       <ins class="adsbygoogle"
            style="display:block"
