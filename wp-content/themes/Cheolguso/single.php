@@ -30,7 +30,9 @@
       <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
-      <p class="donate-text">광고 수익 전액은 소년소녀가정에 기부 됩니다.</p>
+      <div class="donate-text">
+        <p>광고 수익 전액은 소년소녀가정에 기부 됩니다.</p>
+      </div>
     </div>
 
     <?php comments_template(); ?>
