@@ -86,8 +86,8 @@ img#wpstats {display:none;}
 margin:3px; display:inline-block;}
 
 
-.donate-text {padding: 10px 2px;}
-.donate-text p {font-size: 10px; line-height: 14px; color: #f7f7f7;}
+.donate-text {padding: 8px 2px;}
+.donate-text p {font-size: 12px; line-height: 18px; color: #666;}
 
 
 .side_widget .widgettitle {font-size: 16px; margin: 0px 0 10px; padding-bottom: 10px; border-bottom: 1px solid #ddd;}
