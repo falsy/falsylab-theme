@@ -1,7 +1,7 @@
 # falsy laboratory blog
 
 ## site
-https://lab.falsy.me
+https://falsy.me
 
 ## change log
 

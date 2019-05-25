@@ -1,3 +1,5 @@
 <div class="side_widget">
-    <?php dynamic_sidebar('side_bar'); ?>
+    <?php 
+    	if(get_the_ID() != '2373') dynamic_sidebar('side_bar'); 
+    ?>
 </div>
