@@ -295,7 +295,8 @@ div.wpcf7-mail-sent-ok {color:#71aaad; border:0; margin:0; padding:0;}
  -------------------------------------------------------------------------------------------------------- */
 
 #about-page { line-height: 26px; color: #000;}
-#about-page a { color: #666; }
+#about-page h1 { font-size: 16px; margin-bottom: 20px; font-weight: 500; }
+#about-page a { color: #bbb; }
 #about-page a:hover { color: #444; }
 
 

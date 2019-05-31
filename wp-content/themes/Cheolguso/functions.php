@@ -2,7 +2,7 @@
 
 //enqueue style & script
 function CGS_scripts_styles() {
-  wp_enqueue_style( 'cgs_style', get_template_directory_uri() . '/css/style.css', false, '1.1.16');
+  wp_enqueue_style( 'cgs_style', get_template_directory_uri() . '/css/style.css', false, '1.1.17');
   wp_enqueue_style( 'cgs_responsive', get_template_directory_uri() . '/css/responsive_style.css', false, '1.1.13');
   wp_enqueue_script( 'falsy_proxima_nova' , get_template_directory_uri() . '/js/falsy_proxima_nova.js', null, false, true);
 }
