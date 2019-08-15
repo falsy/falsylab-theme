@@ -42,6 +42,7 @@
     <nav>
       <a href="<?php echo home_url(); ?>/about/">About</a>
       <a href="<?php echo home_url(); ?>/programming/">Programming</a>
+      <a href="<?php echo home_url(); ?>/project/">Project</a>
       <a href="<?php echo home_url(); ?>/blog/">Blog</a>
     </nav>
   </div>
