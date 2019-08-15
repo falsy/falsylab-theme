@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Blogs Page*/
+/* Template Name: Project Page*/
 ?>
 <?php get_header(); ?>
 <section id="page_content">
