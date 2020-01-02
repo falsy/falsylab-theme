@@ -1,9 +1,13 @@
-# falsy laboratory blog
+# Falsy Laboratory Blog
 
-## site
+## Site
 https://falsy.me
 
-## change log
+## Change Log
+
+#### v3.0.8
+* 약간의 리스트 스타일 수정
+* 카피라이트 수정
 
 #### v3.0.7
 * 태그 탬플릿 페이지 추가 (구글 검색 대응을 위해)

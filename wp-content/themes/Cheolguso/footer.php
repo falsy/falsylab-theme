@@ -2,7 +2,7 @@
             <div class="container">
             	<section>
                     <p id="copyright">
-                        Copyright &copy; 2014-2019 FALSY LAB. All Rights Reserved<br />
+                        © 2020 Falsy.<br>새해 건강하시고 행복한 한 해 보내세요. 😀
                     </p>
                 </section>
             </div>
