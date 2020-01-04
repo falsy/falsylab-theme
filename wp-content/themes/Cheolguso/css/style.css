@@ -199,7 +199,7 @@ margin:3px; display:inline-block;}
 .footer_sidebar .donate-text {text-align: right; padding: 10px 0;}
 
 /* other posts */
-#other-posts {margin-top: 60px;}
+#other-posts {margin: 60px 0;}
 #other-posts h3 {font-size: 15px; color: #111; padding: 10px 0; margin: 10px 0; border-bottom: 1px solid #ddd; font-style: italic; font-weight: normal; border-top: 0;}
 #other-posts .other-posts-container {margin: 0 -20px;}
 #other-posts .other-posts-container .col {width: 33.33%;}
