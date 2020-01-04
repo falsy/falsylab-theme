@@ -169,7 +169,8 @@
 	#review_text {font-size: 13px;}
 	#review_text .basic-text-box {padding: 5px 10px;}
 
-	#other-posts .other-posts-container .col {width: 50%;}
+	#other-posts .other-posts-container {margin: 0 -10px;}
+	#other-posts .other-posts-container .col {width: 50%; margin: 0;}
 	#other-posts .other-posts-container .col > div > div h2 { height: 66px; }
 	#other-posts .other-posts-container .col > div > div h2 p { font-size: 12px; line-height: 18px; }
 	#other-posts .other-posts-container .col + .col + .col {display: none;}
