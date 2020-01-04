@@ -5,6 +5,9 @@ https://falsy.me
 
 ## Change Log
 
+#### v3.0.9
+* 싱글 페이지 Other Posts' 다시 추가
+
 #### v3.0.8
 * 약간의 리스트 스타일 수정
 * 카피라이트 수정

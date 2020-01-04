@@ -19,6 +19,46 @@
 
     <?php the_content(); ?>
 
+
+    <div id="other-posts">
+      <h3>Other posts</h3>
+      <div class="other-posts-container">
+        <?php
+        $args = array(
+        'cat' => 7,
+        'post_type'    => 'post',
+        'orderby' => 'rand',
+        'posts_per_page' => 3,
+        );
+        $lab_query = new WP_Query($args);
+        if($lab_query->have_posts()) :
+        while($lab_query->have_posts()) :
+        $lab_query->the_post();
+        ?>
+        <article id="post-<?php the_ID() ; ?>" <?php post_class('col'); ?>>
+          <div>
+            <div>
+              <div class="post_content_box">
+                <figure>
+                  <?php the_post_thumbnail(); ?>
+                </figure>
+                <h2 class="thumb_text">
+                  <?php echo the_excerpt() ?>
+                </h2>
+                <div class="post_date">
+                  <span><?php echo get_the_date('Y-m-d'); ?></span>
+                </div>
+              </div>
+              <a href="<?php the_permalink() ?>">link area</a>
+            </div>
+          </div>
+        </article>
+        <?php endwhile; ?>
+        <?php endif; ?>
+        <div style="clear:left;"></div>
+      </div>
+    </div>
+
     <div class="footer-google">
       <p class="ad-title">Advertisement</p>
       <!-- single-footer-ad -->
@@ -30,9 +70,9 @@
       <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
-      <!-- <div class="donate-text">
-        <p>&#x1F495;&nbsp;광고 수익금 전액은 소년소녀가정에 기부 됩니다.</p>
-      </div> -->
+      <div class="donate-text">
+        <p>광고 수익금은 소년소녀가정에 기부됩니다.</p>
+      </div>
     </div>
 
     <?php comments_template(); ?>
