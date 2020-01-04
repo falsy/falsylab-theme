@@ -204,8 +204,8 @@ margin:3px; display:inline-block;}
 #other-posts .other-posts-container {margin: 0 -20px;}
 #other-posts .other-posts-container .col {width: 33.33%;}
 #other-posts .other-posts-container .col > div > div { position: relative; }
-#other-posts .ohere-posts-container .col > div > div a { position: absolute; z-index: 100; top: 0; left: 0; right: 0; bottom: 0; background: #fff; opacity: 0;}
-#other-posts .ohere-posts-container .col > div > div h2 p { color: #111; font-size: 14px; line-height: 22px; font-weight: normal;}
+#other-posts .other-posts-container .col > div > div a { position: absolute; z-index: 100; top: 0; left: 0; right: 0; bottom: 0; background: #fff; opacity: 0;}
+#other-posts .other-posts-container .col > div > div h2 p { color: #111; font-size: 14px; line-height: 22px; font-weight: normal;}
 #other-posts .other-posts-container .col > div > div img {width: 100%; height: auto;}
 
 
