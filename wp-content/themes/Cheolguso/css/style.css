@@ -203,8 +203,9 @@ margin:3px; display:inline-block;}
 #other-posts h3 {font-size: 15px; color: #111; padding: 10px 0; margin: 10px 0; border-bottom: 1px solid #ddd; font-style: italic; font-weight: normal; border-top: 0;}
 #other-posts .other-posts-container {margin: 0 -20px;}
 #other-posts .other-posts-container .col {width: 33.33%;}
-#other-posts .other-posts-container .col > div > div {position: relative; }
+#other-posts .other-posts-container .col > div > div {position: relative;}
 #other-posts .other-posts-container .col > div > div a {position: absolute; z-index: 100; top: 0; left: 0; right: 0; bottom: 0; background: #fff; opacity: 0;}
+#other-posts .other-posts-container .col > div > div h2 {height: 80px; overflow: hidden;}
 #other-posts .other-posts-container .col > div > div h2 p {color: #111; font-size: 14px; line-height: 22px; font-weight: normal; padding: 10px 5px 0;}
 #other-posts .other-posts-container .col > div > div img {width: 100%; height: auto;}
 #other-posts .other-posts-container .col > div > div .post_date {font-size: 12px; padding: 20px 5px 0;}
