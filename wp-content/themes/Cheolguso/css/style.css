@@ -201,8 +201,8 @@ margin:3px; display:inline-block;}
 /* other posts */
 #other-posts {margin-top: 60px;}
 #other-posts h3 {font-size: 15px; color: #111; padding: 10px 0; margin: 10px 0; border-bottom: 1px solid #ddd; font-style: italic; font-weight: normal; border-top: 0;}
-#page_content #other-posts .other-posts-container {margin: 0 -20px;}
-#page_content #other-posts .other-posts-container .col {width: 33.33%;}
+#other-posts .other-posts-container {margin: 0 -20px;}
+#other-posts .other-posts-container .col {width: 33.33%;}
 
 
 /* ---------------------------------------------------------------------------------------------------------
