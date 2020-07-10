@@ -16,10 +16,10 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="폴시랩">
 <meta property="og:description" content="자바스트립트, PHP, 워드프레스, HTML, CSS, 팁, 가이드, 일상이야기.">
-<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/img/logo1200x630.png">
+<meta property="og:image" content="https://falsy.me/wp-content/uploads/2020/07/falsylab.jpg">
 <meta name="twitter:title" content="폴시랩">
 <meta name="twitter:description" content="자바스트립트, PHP, 워드프레스, HTML, CSS, 팁, 가이드, 일상이야기.">
-<meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/img/logo1200x630.png">
+<meta name="twitter:image" content="https://falsy.me/wp-content/uploads/2020/07/falsylab.jpg">
 
 <?php wp_head(); ?>
 
