@@ -161,15 +161,13 @@ function cgs_comment($comment, $args, $depth) {
 }
 
 function add_jsonld_head() {
-  $event_ID = get_query_var('event_id');
-  $event = eme_get_event($event_ID);
-  $location_id = $event['location_id'];
-  $location = eme_get_location(intval($location_id));
-  ?>
-  <script type="application/ld+json">
-  {"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"https:\/\/falsy.me\/#website","url":"https:\/\/falsy.me\/","name":"\ud3f4\uc2dc\ub7a9","description":"\ud3f4\uc2dc\ub7a9","publisher":{"@id":"https:\/\/falsy.me\/#organization"}},{"@type":"Organization","@id":"https:\/\/falsy.me\/#organization","name":"\ud3f4\uc2dc\ub7a9","url":"https:\/\/falsy.me\/"},{"@type":"BreadcrumbList","@id":"https:\/\/falsy.me\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/falsy.me\/#listItem","position":"1","item":{"@id":"https:\/\/falsy.me\/#item","name":"\ud648","description":"\uc790\ubc14\uc2a4\ud2b8\ub9bd\ud2b8, PHP, \uc6cc\ub4dc\ud504\ub808\uc2a4, HTML, CSS, \ud301, \uac00\uc774\ub4dc, \uc77c\uc0c1\uc774\uc57c\uae30","url":"https:\/\/falsy.me\/"}}]},{"@type":"WebPage","@id":"https:\/\/falsy.me\/#webpage","url":"https:\/\/falsy.me\/","name":"\ud3f4\uc2dc\ub7a9","description":"\uc790\ubc14\uc2a4\ud2b8\ub9bd\ud2b8, PHP, \uc6cc\ub4dc\ud504\ub808\uc2a4, HTML, CSS, \ud301, \uac00\uc774\ub4dc, \uc77c\uc0c1\uc774\uc57c\uae30","inLanguage":"ko-KR","isPartOf":{"@id":"https:\/\/falsy.me\/#website"},"breadcrumb":{"@id":"https:\/\/falsy.me\/#breadcrumblist"},"image":{"@type":"ImageObject","@id":"https:\/\/falsy.me\/#mainImage","url":"https:\/\/falsy.me\/wp-content\/uploads\/2020\/07\/falsylab.png","width":"1200","height":"630"},"primaryImageOfPage":{"@id":"https:\/\/falsy.me\/#mainImage"},"datePublished":"2015-06-30T13:36:49+09:00","dateModified":"2018-02-05T12:44:38+09:00"}]}
-  </script>
-  <?php
+	if(eme_is_single_event_page()) {
+		?>
+		<script type="application/ld+json">
+    {"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"https:\/\/falsy.me\/#website","url":"https:\/\/falsy.me\/","name":"\ud3f4\uc2dc\ub7a9","description":"\ud3f4\uc2dc\ub7a9","publisher":{"@id":"https:\/\/falsy.me\/#organization"}},{"@type":"Organization","@id":"https:\/\/falsy.me\/#organization","name":"\ud3f4\uc2dc\ub7a9","url":"https:\/\/falsy.me\/"},{"@type":"BreadcrumbList","@id":"https:\/\/falsy.me\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/falsy.me\/#listItem","position":"1","item":{"@id":"https:\/\/falsy.me\/#item","name":"\ud648","description":"\uc790\ubc14\uc2a4\ud2b8\ub9bd\ud2b8, PHP, \uc6cc\ub4dc\ud504\ub808\uc2a4, HTML, CSS, \ud301, \uac00\uc774\ub4dc, \uc77c\uc0c1\uc774\uc57c\uae30","url":"https:\/\/falsy.me\/"}}]},{"@type":"WebPage","@id":"https:\/\/falsy.me\/#webpage","url":"https:\/\/falsy.me\/","name":"\ud3f4\uc2dc\ub7a9","description":"\uc790\ubc14\uc2a4\ud2b8\ub9bd\ud2b8, PHP, \uc6cc\ub4dc\ud504\ub808\uc2a4, HTML, CSS, \ud301, \uac00\uc774\ub4dc, \uc77c\uc0c1\uc774\uc57c\uae30","inLanguage":"ko-KR","isPartOf":{"@id":"https:\/\/falsy.me\/#website"},"breadcrumb":{"@id":"https:\/\/falsy.me\/#breadcrumblist"},"image":{"@type":"ImageObject","@id":"https:\/\/falsy.me\/#mainImage","url":"https:\/\/falsy.me\/wp-content\/uploads\/2020\/07\/falsylab.png","width":"1200","height":"630"},"primaryImageOfPage":{"@id":"https:\/\/falsy.me\/#mainImage"},"datePublished":"2015-06-30T13:36:49+09:00","dateModified":"2018-02-05T12:44:38+09:00"}]}
+		</script>
+		<?php
+	}
 }
 add_action('wp_head', 'add_jsonld_head', 1);
 
