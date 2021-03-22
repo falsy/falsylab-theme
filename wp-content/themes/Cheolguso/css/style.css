@@ -396,7 +396,7 @@ body.dark-mode {background: #101010; color: #bbb;}
 
 .dark-mode #page_header h1 a img,
 .dark-mode #page_content article .post_content_box img,
-#other-posts .other-posts-container .col > div > div img {filter: invert(100%);}
+.dark-mode #other-posts .other-posts-container .col > div > div img {filter: invert(100%);}
 
 .dark-mode .post_date {color: #404040;}
 
@@ -407,6 +407,7 @@ body.dark-mode .crayon-theme-prism-like {background: #1b1b1b !important;}
 body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-v,
 body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-y,
 body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-i,
+body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-sy,
 body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-e {color: #cacaca !important;}
 
 body.single-post .overview h3 {color: #fff;}
