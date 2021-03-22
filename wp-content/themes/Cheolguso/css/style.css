@@ -22,7 +22,7 @@ img#wpstats {display:none;}
 /* ---------------------------------------------------------------------------------------------------------
  * Header
  -------------------------------------------------------------------------------------------------------- */
-#page_header {height: 320px; line-height: 320px; overflow: hidden; background: #fff;}
+#page_header {height: 320px; line-height: 320px; overflow: hidden;}
 #page_header nav {position: relative; float: left; z-index: 10; margin-left: 25%;}
 #page_header nav a {color:#000; margin:0 0 0 40px; display: inline-block; font-size: 14px; line-height: 40px;}
 #page_header nav a:first-child {margin-left: 20px;}
@@ -107,7 +107,7 @@ margin:3px; display:inline-block;}
 .bread {visibility: hidden;}
 
 #page_content .col_box_full:after {content:''; clear: both; display: block;}
-#page_content article {background:#fff; margin-top:10px; margin-bottom:30px; transition: all 0.4s;}
+#page_content article {margin-top:10px; margin-bottom:30px; transition: all 0.4s;}
 #page_content article > div > div {position:relative;}
 /*:hover {box-shadow: 3px 3px 35px 0 rgba(0,0,0,0.1);}*/
 
@@ -384,8 +384,28 @@ body .crayon-theme-prism-like .crayon-pre .crayon-c {
 
 
 
+/* ---------------------------------------------------------------------------------------------------------
+ * Dark Mode
+ -------------------------------------------------------------------------------------------------------- */
+body.dark-mode {background: #101010; color: #bbb;}
+.dark-mode a {color: #666;}
+ 
+.dark-mode #page_header nav a,
+.dark-mode #page_content article .thumb_text p,
+#other-posts .other-posts-container .col > div > div h2 p {color: #cacaca;}
 
+.dark-mode #page_header h1 a img,
+.dark-mode #page_content article .post_content_box img,
+#other-posts .other-posts-container .col > div > div img {filter: invert(100%);}
 
+.dark-mode .post_date {color: #404040;}
+
+.dark-mode .single .overview header {background: #0e0e0e;}
+.dark-mode .single h1 {color: #cacaca;}
+
+body.dark-mode .crayon-theme-prism-like {background: #1b1b1b !important;}
+body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-v,
+body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-y {color: #cacaca;}
 
 
 
