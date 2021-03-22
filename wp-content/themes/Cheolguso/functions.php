@@ -165,7 +165,7 @@ function aioseo_disable_schema_products( $disabled ) {
   //     return true;
   //  }
   //  return $disabled;
-  return false;
+  return true;
 }
 
 add_filter( 'aioseo_schema_disable', 'aioseo_disable_schema_products' );
