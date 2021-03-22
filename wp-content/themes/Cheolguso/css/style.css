@@ -392,7 +392,7 @@ body.dark-mode {background: #101010; color: #bbb;}
  
 .dark-mode #page_header nav a,
 .dark-mode #page_content article .thumb_text p,
-#other-posts .other-posts-container .col > div > div h2 p {color: #cacaca;}
+.dark-mode #other-posts .other-posts-container .col > div > div h2 p {color: #cacaca;}
 
 .dark-mode #page_header h1 a img,
 .dark-mode #page_content article .post_content_box img,
