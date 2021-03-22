@@ -160,6 +160,16 @@ function cgs_comment($comment, $args, $depth) {
 <?php
 }
 
+function aioseo_disable_schema_products( $disabled ) {
+  //  if ( is_singular( 'product' ) && aioseo()->helpers->isWooCommerceActive() ) {
+  //     return true;
+  //  }
+  //  return $disabled;
+  return false;
+}
+
+add_filter( 'aioseo_schema_disable', 'aioseo_disable_schema_products' );
+
 function add_jsonld_head() {
   ?>
   <script type="application/ld+json">
