@@ -389,6 +389,7 @@ body .crayon-theme-prism-like .crayon-pre .crayon-c {
  -------------------------------------------------------------------------------------------------------- */
 body.dark-mode {background: #101010; color: #bbb;}
 .dark-mode a {color: #666;}
+.dark-mode .post_date {color: #404040;}
  
 .dark-mode #page_header nav a,
 .dark-mode #page_content article .thumb_text p,
@@ -397,8 +398,6 @@ body.dark-mode {background: #101010; color: #bbb;}
 .dark-mode #page_header h1 a img,
 .dark-mode #page_content article .post_content_box img,
 .dark-mode #other-posts .other-posts-container .col > div > div img {filter: invert(100%);}
-
-.dark-mode .post_date {color: #404040;}
 
 .dark-mode.single .overview header {background: #0e0e0e;}
 .dark-mode.single h1 {color: #cacaca;}
@@ -410,6 +409,6 @@ body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-i,
 body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-sy,
 body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-e {color: #cacaca !important;}
 
-body.single-post .overview h3 {color: #fff;}
+body.dark-mode.single-post .overview h3 {color: #fff;}
 
 
