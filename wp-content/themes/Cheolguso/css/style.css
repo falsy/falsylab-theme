@@ -416,10 +416,10 @@ body.dark-mode.single-post .overview h3 {color: #fff;}
 
 
 .dark-mode header .sun circle {fill: transparent;}
-.dark-mode header .moon path {fill: #33c1ab;}
+.dark-mode header .moon path {fill: #33c1ab; stroke: #000;}
 
 .dark-mode .view_box_title {border-color: #252525;}
 .dark-mode #other-posts h3 {border-color: #252525;}
 
 .dark-mode #back-arrow-btn {background: #000;}
-.dark-mode #back-arrow-btn path {fill: #cacaca;}
+.dark-mode #back-arrow-btn path {fill: #cacaca !important;}
