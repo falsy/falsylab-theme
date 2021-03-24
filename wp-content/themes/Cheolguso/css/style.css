@@ -31,9 +31,12 @@ img#wpstats {display:none;}
 #page_header h1 a img {vertical-align: middle; margin-left: -12px;}
 #page_header:after {content: ''; clear: both; display: block;}
 
-header .sun  {position: absolute; top: 10px; line-height: 0; right: 52px; cursor: pointer;}
+header .sun {position: absolute; top: 10px; line-height: 0; right: 55px; cursor: pointer;}
 header .sun circle {fill: #33c1ab;}
 header .moon {position: absolute; top: 10px; line-height: 0; right: 10px; cursor: pointer;}
+
+.single header .sun {top: 35px; right: 80px;}
+.single header .moon {top: 35px; right: 35px;}
 
 /*.single #page_header {height: 84px; position: fixed; width: 116px; z-index: 100; top: 2%; left: 2%; background: transparent;}
 .single #page_header h1 a img {width: 116px; padding: 10px;}
