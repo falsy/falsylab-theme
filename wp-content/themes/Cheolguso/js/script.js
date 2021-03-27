@@ -10,10 +10,7 @@ jQuery(document).ready(function($) {
 		$('body').addClass('dark-mode');
 		document.cookie = "dark_mode=true; path=/; max-age=1036800; domain=falsy.me; secure";
 	});
-});
 
-// window.addEventListener('DOMContentLoaded', function() {
-// 	if(window.localStorage.getItem('isDarkMode') === 'true') {
-// 		document.body.classList.add('dark-mode')
-// 	}
-// });
+	const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: Dark)').matches;
+	if(isDarkMode) $('body').addClass('dark-mode');
+});
