@@ -32,7 +32,11 @@
   </script>
 </head>
 
-<body <?php body_class(); ?>>
+<?php 
+  $is_dark_mode = $_COOKIE['dark_mode'] == true ? 'dark-mode' : '';
+?>
+
+<body <?php body_class($_COOKIE['dark_mode'] == true ? 'dark-mode' : ''); ?>>
 
 <header id="page_header">
   <div class="container">
