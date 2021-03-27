@@ -426,6 +426,8 @@ body.dark-mode.single-post .overview h3 {color: #fff;}
 .dark-mode #back-arrow-btn {background: #000;}
 .dark-mode #back-arrow-btn path {fill: #cacaca !important;}
 
+.dark-mode #about-page {color: #bbb;}
+
 @media (prefers-color-scheme: dark) {
     body {background: #101010; color: #bbb;}
     a {color: #666;}
@@ -460,4 +462,6 @@ body.dark-mode.single-post .overview h3 {color: #fff;}
     
     #back-arrow-btn {background: #000;}
     #back-arrow-btn path {fill: #cacaca !important;}
+    
+    #about-page {color: #bbb;}
 }
