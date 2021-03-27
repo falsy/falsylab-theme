@@ -33,10 +33,10 @@
 </head>
 
 <?php 
-  $is_dark_mode = ($_COOKIE['dark_mode'] && $_COOKIE['dark_mode'] == true) ? 'dark-mode' : '';
+  $is_dark_mode = $_COOKIE['dark_mode'] ? 'dark-mode' : 'white-mode';
 ?>
 
-<body <?php body_class($_COOKIE['dark_mode'] == true ? 'dark-mode' : ''); ?>>
+<body <?php body_class($is_dark_mode); ?>>
 
 <header id="page_header">
   <div class="container">
