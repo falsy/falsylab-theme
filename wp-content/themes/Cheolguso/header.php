@@ -33,7 +33,7 @@
 </head>
 
 <?php 
-  $is_dark_mode = $_COOKIE['dark_mode'] ? 'dark-mode' : 'white-mode';
+  $is_dark_mode = isset($_COOKIE['dark_mode']) ? 'dark-mode' : 'white-mode';
 ?>
 
 <body <?php body_class($is_dark_mode); ?>>
