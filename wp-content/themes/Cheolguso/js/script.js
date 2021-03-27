@@ -10,8 +10,10 @@ jQuery(document).ready(function($) {
 		$('body').addClass('dark-mode');
 		window.localStorage.setItem('isDarkMode', 'true');
 	});
+});
 
+window.addEventListener('DOMContentLoaded', function() {
 	if(window.localStorage.getItem('isDarkMode') === 'true') {
-		$('body').addClass('dark-mode');
+		document.body.classList.add('dark-mode')
 	}
 });
