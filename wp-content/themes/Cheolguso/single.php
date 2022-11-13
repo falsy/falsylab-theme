@@ -62,6 +62,7 @@
           </div>
         </article>
         <?php endwhile; ?>
+        <?php wp_reset_query() ?>
         <?php endif; ?>
         <div style="clear:left;"></div>
       </div>
