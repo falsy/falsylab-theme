@@ -30,8 +30,8 @@ div#disqus_thread iframe[sandbox] {max-height: 0px !important;}
  -------------------------------------------------------------------------------------------------------- */
 #page_header {height: 320px; line-height: 320px; overflow: hidden;}
 #page_header nav {position: relative; float: left; z-index: 10; margin-left: 25%;}
-#page_header nav a {color:#000; margin:0 0 0 40px; display: inline-block; font-size: 14px; line-height: 40px;}
-#page_header nav a:first-child {margin-left: 20px;}
+#page_header nav a {color:#000; margin:0 0 0 50px; display: inline-block; font-size: 15px; line-height: 40px;}
+#page_header nav a:first-child {margin-left: 12px;}
 #page_header h1 {position: absolute; width: 100%; text-align: left; font-size: 24px; font-weight: normal; margin: 0;}
 #page_header h1 a {color: #111;}
 #page_header h1 a img {vertical-align: middle; margin-left: -12px;}
@@ -130,7 +130,7 @@ margin:3px; display:inline-block;}
 
 #page_content article div > a {position:absolute; z-index:100; top: 0; left: 0; right: 0; bottom: 0; background: #fff; opacity: 0;}
 #page_content article .thumb_text {padding:10px 5px 0; height: 70px; overflow: hidden;}
-#page_content article .thumb_text p {color: #111; font-size: 14px; line-height: 22px;}
+#page_content article .thumb_text p {color: #111; font-size: 14px; line-height: 22px; overflow: hidden; text-overflow: ellipsis; -webkit-line-clamp: 3; -webkit-box-orient: vertical; display: -webkit-box;}
 
 #page_content article .view_like_box {width:100%; text-align:right; color:#c0c0c0; padding: 20px 16px 10px 0; font-size: 11px;}
 #page_content article .view_like_box > p {display:inline-block; margin-left:10px;}
