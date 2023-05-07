@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Blogs Page*/
+/* Template Name: Essay Page*/
 ?>
 <?php get_header(); ?>
 <section id="page_content">
