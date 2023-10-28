@@ -30,7 +30,7 @@ div#disqus_thread iframe[sandbox] {max-height: 0px !important;}
  -------------------------------------------------------------------------------------------------------- */
 #page_header {height: 320px; line-height: 320px; overflow: hidden;}
 #page_header nav {position: relative; float: left; z-index: 10; margin-left: 25%;}
-#page_header nav a {color:#000; margin:0 0 0 50px; display: inline-block; font-size: 15px; line-height: 40px;}
+#page_header nav a {color:#000; margin:0 0 0 50px; display: inline-block; font-size: 16px; line-height: 40px;}
 #page_header nav a:first-child {margin-left: 12px;}
 #page_header h1 {position: absolute; width: 100%; text-align: left; font-size: 24px; font-weight: normal; margin: 0;}
 #page_header h1 a {color: #111;}

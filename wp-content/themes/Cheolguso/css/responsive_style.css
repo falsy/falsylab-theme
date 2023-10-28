@@ -44,7 +44,8 @@
 	#page_content .navigation {margin-left:20px;}
 
 	/*nav*/
-	#page_header nav a {font-size:14px; margin-left: 40px;}
+	#page_header nav {margin-left: 34%;}
+	#page_header nav a {font-size:16px; margin-left: 40px;}
 
 	/*contact*/
 	#contact .col_box .col {display:none;}
@@ -93,7 +94,7 @@
 	#page_header #logo {margin-left:0;}
 
 	/*nav*/
-	#page_header nav a {margin-left: 20px;}
+	#page_header nav a {margin-left: 20px; font-size: 15px;}
 
 
 	/*page*/
