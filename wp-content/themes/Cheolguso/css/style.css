@@ -129,7 +129,7 @@ margin:3px; display:inline-block;}
 #page_content article .post_content_box img {width:100%; height: auto;}
 
 #page_content article div > a {position:absolute; z-index:100; top: 0; left: 0; right: 0; bottom: 0; background: #fff; opacity: 0;}
-#page_content article .thumb_text {padding:10px 5px 0; height: 70px; overflow: hidden;}
+#page_content article .thumb_text {padding:10px 5px 0; height: 74px; overflow: hidden;}
 #page_content article .thumb_text p {color: #111; font-size: 14px; line-height: 22px; overflow: hidden; text-overflow: ellipsis; -webkit-line-clamp: 3; -webkit-box-orient: vertical; display: -webkit-box;}
 
 #page_content article .view_like_box {width:100%; text-align:right; color:#c0c0c0; padding: 20px 16px 10px 0; font-size: 11px;}
