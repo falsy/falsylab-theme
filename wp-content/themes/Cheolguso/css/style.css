@@ -400,26 +400,29 @@ body .crayon-theme-prism-like .crayon-pre .crayon-c {
  * Dark Mode
  -------------------------------------------------------------------------------------------------------- */
 body.dark-mode {background: #101010; color: #bbb;}
-.dark-mode a {color: #666;}
-.dark-mode .post_date {color: #404040;}
+.dark-mode .view_box_title {color: #ddd;}
+.dark-mode a {color: #ddd;}
+.dark-mode .post_date {color: #757575;}
  
 .dark-mode #page_header nav a,
 .dark-mode #page_content article .thumb_text p,
-.dark-mode #other-posts .other-posts-container .col > div > div h2 p {color: #cacaca;}
+.dark-mode #other-posts .other-posts-container .col > div > div h2 p {color: #ddd;}
 
 .dark-mode #page_header h1 a img,
 .dark-mode #page_content article .post_content_box img,
 .dark-mode #other-posts .other-posts-container .col > div > div img {filter: invert(100%);}
 
 .dark-mode.single .overview header {background: #151515;}
-.dark-mode.single h1 {color: #cacaca;}
+.dark-mode.single h1 {color: #ddd;}
 
 body.dark-mode .crayon-theme-prism-like {background: #1b1b1b !important;}
 body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-v,
 body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-y,
 body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-i,
 body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-sy,
-body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-e {color: #cacaca !important;}
+body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-e {color: #ddd !important;}
+body.dark-mode .crayon-syntax .crayon-pre, 
+body.dark-mode .crayon-syntax pre {color: #999;}
 
 body.dark-mode.single-post .overview h3 {color: #fff;}
 
@@ -430,9 +433,11 @@ body.dark-mode.single-post .overview h3 {color: #fff;}
 .dark-mode #other-posts h3 {border-color: #252525;}
 
 .dark-mode #back-arrow-btn {background: #000;}
-.dark-mode #back-arrow-btn path {fill: #cacaca !important;}
+.dark-mode #back-arrow-btn path {fill: #ddd !important;}
 
 .dark-mode #about-page {color: #bbb;}
+.dark-mode #about-page h1 {color: #ddd;}
+.dark-mode #about-page a:hover {color: #ddd;}
 
 .dark-mode #review_text .left-line-box {border-left: 3px solid #bbb;}
 
