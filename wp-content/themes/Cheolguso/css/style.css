@@ -434,7 +434,9 @@ body.dark-mode.single-post .overview h3 {color: #fff;}
 
 .dark-mode #about-page {color: #bbb;}
 
-@media (prefers-color-scheme: dark) {
+.dark-mode #review_text .left-line-box {border-left: 3px solid #bbb;}
+
+/* @media (prefers-color-scheme: dark) {
     body {background: #101010; color: #bbb;}
     a {color: #666;}
     .post_date {color: #404040;}
@@ -470,4 +472,6 @@ body.dark-mode.single-post .overview h3 {color: #fff;}
     #back-arrow-btn path {fill: #cacaca !important;}
     
     #about-page {color: #bbb;}
-}
+
+    #review_text .left-line-box {border-left: 3px solid #bbb;}
+} */

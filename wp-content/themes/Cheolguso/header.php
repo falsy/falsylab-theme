@@ -33,7 +33,8 @@
 </head>
 
 <?php 
-  $is_dark_mode = isset($_COOKIE['dark_mode']) ? 'dark-mode' : 'white-mode';
+  $is_screen_mode_mode = isset($_COOKIE['dark_mode']) ? 'dark-mode' : '';
+  $is_screen_mode_mode = isset($_COOKIE['light_mode']) ? 'light-mode' : $is_screen_mode_mode;
 ?>
 
 <body <?php body_class($is_dark_mode); ?>>
@@ -41,7 +42,7 @@
 <header id="page_header">
   <div class="container">
     <h1><a href="<?php echo home_url(); ?>">
-      <img src="https://lab.falsy.me/wp-content/uploads/2018/11/logo.png" alt="falsy logo" width="160"/></a>
+      <img src="https://falsy.me/wp-content/uploads/2018/11/logo.png" alt="falsy logo" width="160"/></a>
     </h1>
     <nav>
       <a href="<?php echo home_url(); ?>/about/">About</a>
