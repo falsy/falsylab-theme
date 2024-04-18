@@ -3,7 +3,7 @@
   <?php while ( have_posts() ) : the_post(); ?>
   <header>
     <div class="container">
-      <h1><?php the_title(); ?></h1>
+      <h1><?php the_excerpt(); ?></h1>
       <p class="post_date highlight_color"><?php the_date('Y-m-d'); ?></p>
     </div>
 
