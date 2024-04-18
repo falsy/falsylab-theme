@@ -441,7 +441,7 @@ body.dark-mode.single-post .overview h3 {color: #fff;}
 .dark-mode #about-page a:hover {color: #ddd;}
 
 .dark-mode #review_text .left-line-box {border-left: 3px solid #bbb;}
-.dark-mode #review_text .basic-img-box {background: #1b1b1b;}
+.dark-mode #review_text .basic-img-box {background: #222;}
 
 /* @media (prefers-color-scheme: dark) {
     body {background: #101010; color: #bbb;}
