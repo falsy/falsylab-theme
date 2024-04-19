@@ -22,7 +22,15 @@
   <meta name="twitter:description" content="자바스트립트, PHP, 워드프레스, HTML, CSS, 팁, 가이드, 일상이야기.">
 
   <?php wp_head(); ?>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-079VSG4JZ4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'G-079VSG4JZ4');
+  </script>
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
       (adsbygoogle = window.adsbygoogle || []).push({
