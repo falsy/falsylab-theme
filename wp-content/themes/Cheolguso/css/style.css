@@ -37,7 +37,7 @@ div#disqus_thread iframe[sandbox] {max-height: 0px !important;}
 #page_header h1 a img {vertical-align: middle; margin-left: -12px;}
 #page_header:after {content: ''; clear: both; display: block;}
 
-header .sun {position: absolute; top: 20px; line-height: 0; right: 55px; cursor: pointer;}
+header .sun {position: absolute; top: 20px; line-height: 0; right: 55px; cursor: pointer; z-index: 15;}
 header .sun circle {fill: #33c1ab;}
 header .moon {position: absolute; top: 20px; line-height: 0; right: 10px; cursor: pointer;}
 
