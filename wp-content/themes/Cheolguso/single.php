@@ -87,6 +87,15 @@
     <?php 
       // comments_template(); 
     ?>
+
+    <script src="https://utteranc.es/client.js"
+        repo="falsy/falsy.me"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+
   <?php endwhile; ?>
   </div>
 </div>
