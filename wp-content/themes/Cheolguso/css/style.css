@@ -188,7 +188,7 @@ header .moon {
 
 #copyright {
   text-align: left;
-  padding: 20px 0 35px;
+  padding: 20px 0 140px;
   font-size: 12px;
   line-height: 140%;
   float: left;
@@ -417,6 +417,7 @@ header .moon {
   line-height: 22px;
   overflow: hidden;
   text-overflow: ellipsis;
+  line-clamp: 3;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   display: -webkit-box;
