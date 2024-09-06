@@ -16,13 +16,4 @@ jQuery(document).ready(function ($) {
     document.cookie =
       "dark_mode=true; path=/; max-age=1036800; domain=falsy.me; secure"
   })
-
-  if (
-    document.cookie.indexOf("light_mode") === -1 &&
-    document.cookie.indexOf("dark_mode") === -1 &&
-    window.matchMedia &&
-    window.matchMedia("(prefers-color-scheme: Dark)").matches
-  ) {
-    $("body").addClass("dark-mode")
-  }
 })

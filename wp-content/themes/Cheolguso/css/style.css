@@ -1206,14 +1206,111 @@ body .crayon-theme-prism-like .crayon-pre .crayon-c {
 /* ---------------------------------------------------------------------------------------------------------
  * Dark Mode
  -------------------------------------------------------------------------------------------------------- */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #101010;
+    color: #bbb;
+  }
+  a {
+    color: #ddd;
+  }
+  .view_box_title {
+    color: #ddd;
+  }
+  .post_date {
+    color: #757575;
+  }
+
+  #page_header nav a,
+  #page_content article .thumb_text p,
+  #other-posts .other-posts-container .col > div > div h2 p {
+    color: #ddd;
+  }
+
+  #page_header h1 a img,
+  #page_content article .post_content_box img,
+  #other-posts .other-posts-container .col > div > div img {
+    filter: invert(100%);
+  }
+
+  .single .overview header {
+    background: #151515;
+  }
+  .single h1 {
+    color: #cacaca;
+  }
+
+  body .crayon-theme-prism-like {
+    background: #1b1b1b !important;
+  }
+  body .crayon-theme-prism-like .crayon-pre .crayon-v,
+  body .crayon-theme-prism-like .crayon-pre .crayon-y,
+  body .crayon-theme-prism-like .crayon-pre .crayon-i,
+  body .crayon-theme-prism-like .crayon-pre .crayon-sy,
+  body .crayon-theme-prism-like .crayon-pre .crayon-e {
+    color: #ddd !important;
+  }
+
+  body .crayon-syntax .crayon-pre,
+  body .crayon-syntax pre {
+    color: #999;
+  }
+
+  body.dark-mode.single-post .overview h3 {
+    color: #fff;
+  }
+
+  header .sun circle {
+    fill: transparent;
+  }
+  header .moon path {
+    fill: #33c1ab;
+    stroke: #000;
+  }
+
+  .view_box_title {
+    border-color: #252525;
+  }
+  #other-posts h3 {
+    border-color: #252525;
+  }
+
+  #back-arrow-btn {
+    background: #000;
+  }
+  #back-arrow-btn path {
+    fill: #ddd !important;
+  }
+
+  #about-page {
+    color: #bbb;
+  }
+
+  #about-page h1 {
+    color: #ddd;
+  }
+
+  #about-page a:hover {
+    color: #ddd;
+  }
+
+  #review_text .left-line-box {
+    border-left: 3px solid #bbb;
+  }
+
+  #review_text .basic-img-box {
+    background: #222;
+  }
+}
+
 body.dark-mode {
   background: #101010;
   color: #bbb;
 }
-.dark-mode .view_box_title {
+.dark-mode a {
   color: #ddd;
 }
-.dark-mode a {
+.dark-mode .view_box_title {
   color: #ddd;
 }
 .dark-mode .post_date {
@@ -1296,43 +1393,3 @@ body.dark-mode.single-post .overview h3 {
 .dark-mode #review_text .basic-img-box {
   background: #222;
 }
-
-/* @media (prefers-color-scheme: dark) {
-    body {background: #101010; color: #bbb;}
-    a {color: #666;}
-    .post_date {color: #404040;}
-     
-    #page_header nav a,
-    #page_content article .thumb_text p,
-    #other-posts .other-posts-container .col > div > div h2 p {color: #cacaca;}
-    
-    #page_header h1 a img,
-    #page_content article .post_content_box img,
-    #other-posts .other-posts-container .col > div > div img {filter: invert(100%);}
-    
-    .single .overview header {background: #151515;}
-    .single h1 {color: #cacaca;}
-    
-    body .crayon-theme-prism-like {background: #1b1b1b !important;}
-    body .crayon-theme-prism-like .crayon-pre .crayon-v,
-    body .crayon-theme-prism-like .crayon-pre .crayon-y,
-    body .crayon-theme-prism-like .crayon-pre .crayon-i,
-    body .crayon-theme-prism-like .crayon-pre .crayon-sy,
-    body .crayon-theme-prism-like .crayon-pre .crayon-e {color: #cacaca !important;}
-    
-    body.dark-mode.single-post .overview h3 {color: #fff;}
-    
-    
-    header .sun circle {fill: transparent;}
-    header .moon path {fill: #33c1ab; stroke: #000;}
-    
-    .view_box_title {border-color: #252525;}
-    #other-posts h3 {border-color: #252525;}
-    
-    #back-arrow-btn {background: #000;}
-    #back-arrow-btn path {fill: #cacaca !important;}
-    
-    #about-page {color: #bbb;}
-
-    #review_text .left-line-box {border-left: 3px solid #bbb;}
-} */

@@ -2,7 +2,7 @@
 
 //enqueue style & script
 function CGS_scripts_styles() {
-  $version = '1.1.40';
+  $version = '1.1.41';
   wp_enqueue_style( 'cgs_style', get_template_directory_uri() . '/css/style.css', false, $version);
   wp_enqueue_style( 'cgs_responsive', get_template_directory_uri() . '/css/responsive_style.css', false, $version);
   wp_enqueue_script( 'falsy_proxima_nova' , get_template_directory_uri() . '/js/falsy_proxima_nova.js', null, $version, true);
