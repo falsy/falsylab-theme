@@ -39,7 +39,7 @@
       });
   </script>
   <script>
-    document.documentElement.className = '<?php echo isset($_COOKIE['dark_mode']) ? 'dark-mode' : ''; ?>';
+    document.documentElement.className = document.cookie.indexOf("dark_mode") >= 0 ? 'dark-mode' : '';
   </script>
 </head>
 
