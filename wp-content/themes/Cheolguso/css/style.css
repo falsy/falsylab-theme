@@ -1206,7 +1206,7 @@ body .crayon-theme-prism-like .crayon-pre .crayon-c {
 /* ---------------------------------------------------------------------------------------------------------
  * Dark Mode
  -------------------------------------------------------------------------------------------------------- */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   body {
     background: #101010;
     color: #bbb;
@@ -1301,95 +1301,95 @@ body .crayon-theme-prism-like .crayon-pre .crayon-c {
   #review_text .basic-img-box {
     background: #222;
   }
-}
+} */
 
-body.dark-mode {
+.dark-mode body {
   background: #101010;
   color: #bbb;
 }
-.dark-mode a {
+.dark-mode body a {
   color: #ddd;
 }
-.dark-mode .view_box_title {
+.dark-mode body .view_box_title {
   color: #ddd;
 }
-.dark-mode .post_date {
+.dark-mode body .post_date {
   color: #757575;
 }
 
-.dark-mode #page_header nav a,
-.dark-mode #page_content article .thumb_text p,
-.dark-mode #other-posts .other-posts-container .col > div > div h2 p {
+.dark-mode body #page_header nav a,
+.dark-mode body #page_content article .thumb_text p,
+.dark-mode body #other-posts .other-posts-container .col > div > div h2 p {
   color: #ddd;
 }
 
-.dark-mode #page_header h1 a img,
-.dark-mode #page_content article .post_content_box img,
-.dark-mode #other-posts .other-posts-container .col > div > div img {
+.dark-mode body #page_header h1 a img,
+.dark-mode body #page_content article .post_content_box img,
+.dark-mode body #other-posts .other-posts-container .col > div > div img {
   filter: invert(100%);
 }
 
-.dark-mode.single .overview header {
+.dark-mode body.single .overview header {
   background: #151515;
 }
-.dark-mode.single h1 {
+.dark-mode body.single h1 {
   color: #ddd;
 }
 
-body.dark-mode .crayon-theme-prism-like {
+.dark-mode body .crayon-theme-prism-like {
   background: #1b1b1b !important;
 }
-body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-v,
-body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-y,
-body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-i,
-body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-sy,
-body.dark-mode .crayon-theme-prism-like .crayon-pre .crayon-e {
+.dark-mode body .crayon-theme-prism-like .crayon-pre .crayon-v,
+.dark-mode body .crayon-theme-prism-like .crayon-pre .crayon-y,
+.dark-mode body .crayon-theme-prism-like .crayon-pre .crayon-i,
+.dark-mode body .crayon-theme-prism-like .crayon-pre .crayon-sy,
+.dark-mode body .crayon-theme-prism-like .crayon-pre .crayon-e {
   color: #ddd !important;
 }
-body.dark-mode .crayon-syntax .crayon-pre,
-body.dark-mode .crayon-syntax pre {
+.dark-mode body .crayon-syntax .crayon-pre,
+.dark-mode body .crayon-syntax pre {
   color: #999;
 }
 
-body.dark-mode.single-post .overview h3 {
+.dark-mode body.single-post .overview h3 {
   color: #fff;
 }
 
-.dark-mode header .sun circle {
+.dark-mode body header .sun circle {
   fill: transparent;
 }
-.dark-mode header .moon path {
+.dark-mode body header .moon path {
   fill: #33c1ab;
   stroke: #000;
 }
 
-.dark-mode .view_box_title {
+.dark-mode body .view_box_title {
   border-color: #252525;
 }
-.dark-mode #other-posts h3 {
+.dark-mode body #other-posts h3 {
   border-color: #252525;
 }
 
-.dark-mode #back-arrow-btn {
+.dark-mode body #back-arrow-btn {
   background: #000;
 }
-.dark-mode #back-arrow-btn path {
+.dark-mode body #back-arrow-btn path {
   fill: #ddd !important;
 }
 
-.dark-mode #about-page {
+.dark-mode body #about-page {
   color: #bbb;
 }
-.dark-mode #about-page h1 {
+.dark-mode body #about-page h1 {
   color: #ddd;
 }
-.dark-mode #about-page a:hover {
+.dark-mode body #about-page a:hover {
   color: #ddd;
 }
 
-.dark-mode #review_text .left-line-box {
+.dark-mode body #review_text .left-line-box {
   border-left: 3px solid #bbb;
 }
-.dark-mode #review_text .basic-img-box {
+.dark-mode body #review_text .basic-img-box {
   background: #222;
 }

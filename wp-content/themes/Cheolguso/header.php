@@ -38,18 +38,12 @@
         enable_page_level_ads: true
       });
   </script>
+  <script>
+    document.documentElement.className = isset($_COOKIE['dark_mode']) ? 'dark-mode' : '';
+  </script>
 </head>
 
-<?php 
-  if (isset($_COOKIE['dark_mode'])) {
-    $is_screen_mode = 'dark-mode';
-  } else {
-    $is_screen_mode = '';
-  }
-?>
-
-<body <?php body_class($is_screen_mode); ?>>
-
+<body>
 <header id="page_header">
   <div class="container">
     <h1><a href="<?php echo home_url(); ?>">
