@@ -41,11 +41,14 @@
 </head>
 
 <?php 
-  $is_screen_mode_mode = isset($_COOKIE['dark_mode']) ? 'dark-mode' : '';
-  $is_screen_mode_mode = isset($_COOKIE['light_mode']) ? 'light-mode' : $is_screen_mode_mode;
+  if (isset($_COOKIE['dark_mode'])) {
+    $is_screen_mode = 'dark-mode';
+  } else {
+    $is_screen_mode = '';
+  }
 ?>
 
-<body <?php body_class($is_dark_mode); ?>>
+<body <?php body_class($is_screen_mode); ?>>
 
 <header id="page_header">
   <div class="container">
