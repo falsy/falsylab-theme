@@ -43,7 +43,7 @@
   </script>
 </head>
 
-<body>
+<body <?php body_class(); ?>>
 <header id="page_header">
   <div class="container">
     <h1><a href="<?php echo home_url(); ?>">
