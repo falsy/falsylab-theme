@@ -33,8 +33,8 @@
       <div class="other-posts-container">
         <?php
         $args = array(
-        'cat' => 7,
-        'post_type'    => 'post',
+        'cat' => '7,357,281',
+        'post_type' => 'post',
         'orderby' => 'rand',
         'posts_per_page' => 3,
         );

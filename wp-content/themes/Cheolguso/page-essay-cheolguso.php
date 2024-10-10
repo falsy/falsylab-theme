@@ -8,7 +8,7 @@
         <?php
           $args = array(
             'cat' => 413,
-            'post_type'      => 'post',
+            'post_type' => 'post'
           );
           $lab_query = new WP_Query($args);
 

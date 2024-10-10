@@ -7,8 +7,8 @@
     <div class="col_box_full">
       <?php
         $args = array(
-          'post_type' => 'post',
-          'post_status' => 'publish'
+          'cat' => '7,357,281',
+          'post_type' => 'post'
         );
         $lab_query = new WP_Query($args);
 
