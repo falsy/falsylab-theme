@@ -8,6 +8,7 @@
       <?php
         $args = array(
           'post_type' => 'post',
+          'post_status' => 'publish'
         );
         $lab_query = new WP_Query($args);
 
