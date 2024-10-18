@@ -23,7 +23,7 @@
                   <figure>
                     <a href="<?php the_permalink() ?>"><?php the_post_thumbnail(); ?></a>
                   </figure>
-                  <h2 class="thumb_text">
+                  <div class="thumb_text">
                     <p><a href="<?php the_permalink() ?>"><?php echo get_the_excerpt() ?></a></p>
                   </h2>
                   <div class="post_date">

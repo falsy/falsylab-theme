@@ -5,9 +5,9 @@
         <figure>
           <a href="<?php the_permalink() ?>"><?php the_post_thumbnail(); ?></a>
         </figure>
-        <h2 class="thumb_text">
-          <a href="<?php the_permalink() ?>"><?php the_excerpt() ?></a>
-        </h2>
+        <div class="thumb_text">
+          <p><a href="<?php the_permalink() ?>"><?php echo get_the_excerpt() ?></a></p>
+        </div>
         <div class="post_date">
           <span><?php echo get_the_date('Y-m-d'); ?></span>
         </div>
