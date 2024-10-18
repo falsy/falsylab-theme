@@ -21,16 +21,15 @@
               <div>
                 <div class="post_content_box">
                   <figure>
-                    <?php the_post_thumbnail(); ?>
+                    <a href="<?php the_permalink() ?>"><?php the_post_thumbnail(); ?></a>
                   </figure>
                   <h2 class="thumb_text">
-                    <?php echo the_excerpt() ?>
+                    <a href="<?php the_permalink() ?>"><?php echo the_excerpt() ?></a>
                   </h2>
                   <div class="post_date">
                     <span><?php echo get_the_date('Y-m-d'); ?></span>
                   </div>
                 </div>
-                <a href="<?php the_permalink() ?>">link area</a>
               </div>
             </div>
           </article>

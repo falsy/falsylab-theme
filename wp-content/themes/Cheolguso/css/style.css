@@ -396,16 +396,6 @@ header .moon {
   height: auto;
 }
 
-#page_content article div > a {
-  position: absolute;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #fff;
-  opacity: 0;
-}
 #page_content article .thumb_text {
   padding: 10px 5px 0;
   height: 74px;
