@@ -25,7 +25,7 @@
                   </figure>
                   <div class="thumb_text">
                     <p><a href="<?php the_permalink() ?>"><?php echo get_the_excerpt() ?></a></p>
-                  </h2>
+                  </div>
                   <div class="post_date">
                     <span><?php echo get_the_date('Y-m-d'); ?></span>
                   </div>
