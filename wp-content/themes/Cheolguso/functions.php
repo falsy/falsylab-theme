@@ -2,7 +2,7 @@
 
 //enqueue style & script
 function CGS_scripts_styles() {
-  $version = '1.1.44';
+  $version = '1.1.45';
   wp_enqueue_style( 'cgs_style', get_template_directory_uri() . '/css/style.css', false, $version);
   wp_enqueue_style( 'cgs_responsive', get_template_directory_uri() . '/css/responsive_style.css', false, $version);
   wp_enqueue_script( 'falsy_proxima_nova' , get_template_directory_uri() . '/js/falsy_proxima_nova.js', null, $version, true);
@@ -10,6 +10,12 @@ function CGS_scripts_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'CGS_scripts_styles' );
 
+//admin enqueue style
+function CGS_admin_styles() {
+  $version = '1.1.45';
+  wp_enqueue_style('cgs_admin_style', get_template_directory_uri() . '/css/admin_style.css', false, $version);
+}
+add_action('admin_enqueue_scripts', 'CGS_admin_styles');
 
 //thumbnails
 add_theme_support('post-thumbnails');
