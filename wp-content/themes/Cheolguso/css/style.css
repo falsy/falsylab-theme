@@ -54,6 +54,30 @@ img#wpstats {
 }
 
 /* ---------------------------------------------------------------------------------------------------------
+ * Zetpack
+ -------------------------------------------------------------------------------------------------------- */
+
+.wp-admin .stats-card.stats-card__hasoverlay .stats-card__overlay {
+  display: none;
+}
+
+.wp-admin
+  .stats-card.stats-card__hasoverlay
+  .stats-card__content
+  .stats-card--footer,
+.wp-admin
+  .stats-card.stats-card__hasoverlay
+  .stats-card__content
+  .stats-card--header-and-body
+  .stats-card--body,
+.wp-admin
+  .stats-card.stats-card__hasoverlay
+  .stats-card__content
+  .stats-card--hero {
+  filter: none;
+}
+
+/* ---------------------------------------------------------------------------------------------------------
  * Disqus
  -------------------------------------------------------------------------------------------------------- */
 div#disqus_thread iframe[sandbox] {
