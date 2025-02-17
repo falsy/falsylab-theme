@@ -2,7 +2,7 @@
             <div class="container">
             	<section>
                     <p id="copyright">
-                        © 2024 Falsy.
+                        © 2025 Falsy.
                     </p>
                 </section>
             </div>
