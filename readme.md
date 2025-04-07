@@ -1,3 +1,3 @@
-# Falsy Laboratory Blog
+## Falsylab Theme
 
-https://falsy.me
+폴시랩에서 사용하고 있는 워드프레스 기반의 모노톤의 간단한 블로그 테마입니다.
