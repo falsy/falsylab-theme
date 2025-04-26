@@ -68,9 +68,9 @@
       </div>
     </div>
 
+    <!-- 
     <div class="footer-google">
       <p class="ad-title">Advertisement</p>
-      <!-- single-footer-ad -->
       <ins class="adsbygoogle"
            style="display:block"
            data-ad-client="ca-pub-8365775889087902"
@@ -82,7 +82,8 @@
       <div class="donate-text">
         <p>광고 수익금은 소년소녀가정에 기부됩니다.</p>
       </div>
-    </div>
+    </div> 
+    -->
 
     <?php 
       // comments_template(); 
