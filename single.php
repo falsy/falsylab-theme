@@ -68,7 +68,6 @@
       </div>
     </div>
 
-    <!-- 
     <div class="footer-google">
       <p class="ad-title">Advertisement</p>
       <ins class="adsbygoogle"
@@ -80,10 +79,9 @@
       (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
       <div class="donate-text">
-        <p>광고 수익금은 소년소녀가정에 기부됩니다.</p>
+        <p>All ad revenue is donated to local children in need.</p>
       </div>
     </div> 
-    -->
 
     <?php 
       // comments_template(); 
