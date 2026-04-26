@@ -68,7 +68,7 @@
       </div>
     </div>
 
-    <!-- <div class="footer-google">
+    <div class="footer-google">
       <p class="ad-title">Advertisement</p>
       <ins class="adsbygoogle"
            style="display:block"
@@ -78,10 +78,7 @@
       <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
-      <div class="donate-text">
-        <p>All ad revenue is donated to local children in need.</p>
-      </div>
-    </div>  -->
+    </div> 
 
     <?php 
       // comments_template(); 
